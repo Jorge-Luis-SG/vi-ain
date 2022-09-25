@@ -1,0 +1,177 @@
+<div class="mint">
+  <div class="mint-banner">
+    <app-header></app-header>
+    <div class="d-flex flex-column align-items-center justify-content-center text-center">
+      <h5 class="mint-banner-welcome">{{'mint.welcome' | translate}}</h5>
+      <img src="../../assets/img/logo.svg" class="mint-banner-logo" />
+      <h5 class="mint-banner-mint">MINT</h5>
+    </div>
+  </div>
+
+  <div class="mint-section1-bg position-relative">
+    <div class="langeClassSwitch position-absolute">
+      <app-lang></app-lang>
+    </div>
+  <div class="mint-section1 container-fluid d-flex flex-column justify-content-evenly">
+
+
+    <p class="mint-section1-paragraph text-center">
+      {{'mint.section1.parrafo' | translate}}
+    </p>
+    <a href="#" routerLink="/mint-nft" class="btn mint-section1-btn">MINT</a>
+    <div class="mint-section1-box-state row position-relative">
+
+      <div class="col-12">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/Nu5zFyQGy4w" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <h6 class="text-center">
+        {{'mint.section1.h6' | translate}}
+      </h6>
+      <div class="col-12 col-md-6 col-lg-3">
+        <span>1K</span>
+        <p class="discord">{{'mint.section1.discord' | translate}}</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <span>1.9K</span>
+        <p>{{'mint.section1.twitter' | translate}}</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <span>6500</span>
+        <p>{{'mint.section1.suply' | translate}}</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <span>3+</span>
+        <p>{{'mint.section1.unique' | translate}}</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div class="mint-section2 text-center">
+    <h4>{{'mint.section2.h4' | translate}} <br class="d-none d-md-block">
+      {{'mint.section2.h42' | translate}} </h4>
+    <p>{{'mint.section2.parrafo' | translate}} </p>
+    <a href="https://discord.gg/vi-ains" target="_blank"  class="d-flex align-items-center justify-content-center">{{'mint.section2.btn' | translate}} <img src="../../assets/img/icons/discord.svg" alt="Discord"></a>
+  </div>
+
+  <div class="mint-section3">
+    <div class="mint-section3-bg row">
+    <div class="mint-section3-box1 col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+    <div>
+      <h4>{{'mint.section3.h4' | translate}}<br class="d-none d-md-block">
+        {{'mint.section3.h42' | translate}}</h4>
+        <p>{{'mint.section3.parrafo' | translate}} </p>
+      <a href="https://vi-ain-s.gitbook.io/vi-ain-s/vi-labs-membership/what-is-vi-labs-membership" target="_blank" >{{'mint.section3.btn' | translate}}</a>
+    </div>
+    </div>
+    <div class="col-12 col-lg-6 d-flex justify-content-center position-relative mint-section3-box2">
+      <div class="position-absolute">
+        <app-mistery-box></app-mistery-box>
+      </div>
+    </div>
+
+
+  </div>
+    <div class="mint-section3-team">
+      <h4>{{'mint.team.h4' | translate}}</h4>
+      <p>{{'mint.team.parrafo' | translate}}
+      </p>
+
+      <div class="mint-section3-team-list row justify-content-between">
+        <div class="col-12 col-md-6 col-lg-3">
+            <app-team-item name="bayron" namel="bayron" name2="hernandez" rank="COO"></app-team-item>
+      </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <app-team-item name="danny" namel="danny" name2="ramirez" rank="Project Manager"></app-team-item>
+      </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <app-team-item namel="kamila" name="kamila" name2="florez" rank="Marketing Director"></app-team-item>
+      </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <app-team-item namel="paula" name="paula" name2="medina" rank="CSO"></app-team-item>
+      </div>
+        <div class="col-12 d-flex justify-content-center mint-section3-team-gradient">
+          <app-line-gradient lineTitle="Ver Más" routerLink="/team"></app-line-gradient>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="mint-section4 d-flex flex-column justify-content-center align-items-center">
+      <h4 class="text-center">FAQ</h4>
+      <div class="d-flex flex-column faq">
+
+        <div class="accordion faq-acordion accordion-flush" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header text-center" id="headingOne">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                {{'mint.section4.ac1' | translate}}
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{'mint.section4.ac1-r' | translate}}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                {{'mint.section4.ac2' | translate}}
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{'mint.section4.ac2-r' | translate}}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                {{'mint.section4.ac3' | translate}}
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{'mint.section4.ac3-r' | translate}}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                {{'mint.section4.ac4' | translate}}
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{'mint.section4.ac4-r' | translate}}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                {{'mint.section4.ac5' | translate}}
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{'mint.section4.ac5-r' | translate}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+</div>
+<app-partners></app-partners>
+

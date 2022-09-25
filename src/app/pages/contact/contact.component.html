@@ -1,0 +1,171 @@
+<div class="contact ">
+  <div class="contact-bg">
+    <div class="contact-bg2 row flex-column align-items-center">
+      <app-header></app-header>
+      <h2 class="title text-center">{{'contact-us.title' | translate}}</h2>
+      <p class="paragraph text-center">
+        {{'contact-us.desc' | translate}}
+      </p>
+      <div class="col-12 contact-body">
+        <div class="contact-body-bg">
+          <div class="contact-body-box1">
+            <h6>{{'contact-us.title2' | translate}}</h6>
+            <div class="contact-body-box1-items">
+              <div class="contact-body-box1-item" (click)="priceOn()">
+                <img src="../../../assets/img/icons/web-development.svg" alt="{{'stack.web' | translate}}" />
+                <span>{{'stack.web' | translate}}</span>
+              </div>
+
+              <div class="contact-body-box1-item" (click)="priceOn()">
+                <img src="../../../assets/img/icons/movil.svg" alt="{{'stack.movil' | translate}}" />
+                <span>{{'stack.movil' | translate}}</span>
+              </div>
+
+              <div class="contact-body-box1-item" (click)="priceOn()">
+                <img src="../../../assets/img/icons/design.svg" alt="{{'stack.design' | translate}}" />
+                <span>{{'stack.design' | translate}}</span>
+              </div>
+
+              <div class="contact-body-box1-item" (click)="priceOff()">
+                <img src="../../../assets/img/icons/mvp.svg" alt="{{'stack.mvp' | translate}}" />
+                <span>{{'stack.mvp' | translate}}</span>
+              </div>
+
+              <div class="contact-body-box1-item" (click)="priceOn()">
+                <img src="../../../assets/img/icons/code.svg" alt="{{'stack.blockchain' | translate}}" />
+                <span>{{'stack.blockchain' | translate}}</span>
+              </div>
+
+              <div class="contact-body-box1-item" (click)="priceOff()">
+                <img src="../../../assets/img/icons/meta.svg" alt="{{'stack.meta' | translate}}" />
+                <span>{{'stack.meta' | translate}}</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="contact-body-box2">
+            <h6>{{'contact-us.title3' | translate}}</h6>
+            <div class="contact-body-box2-item">
+                <label class="labeltech" for="1">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="1" id="1" [disabled]="false">
+                  <img src="../../../assets/img/icons/nodejs.svg" alt="NodeJs" />
+                </label>
+                <label class="labeltech" for="2">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="2" id="2">
+                  <img src="../../../assets/img/icons/vue.js.svg" alt="VueJS" />
+                </label>
+                <label class="labeltech" for="3">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="3" id="3">
+                  <img src="../../../assets/img/icons/ruby.svg" alt="Ruby" />
+                </label>
+                <label class="labeltech" for="4">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="4" id="4">
+                  <img src="../../../assets/img/icons/flutter.svg" alt="Flutter" />
+                </label>
+                <label class="labeltech" for="5">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="5" id="5">
+                  <img src="../../../assets/img/icons/python.svg" alt="Python" />
+                </label>
+                <label class="labeltech" for="6">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="6" id="6">
+                  <img src="../../../assets/img/icons/react-native.svg" alt="NodeJs" />
+                </label>
+                <label class="labeltech" for="7">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="7" id="7">
+                  <img src="../../../assets/img/icons/react.svg" alt="React" />
+                </label>
+                <label class="labeltech" for="8">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="8" id="8">
+                  <img src="../../../assets/img/icons/pwa.svg" alt="PWA" />
+                </label>
+                <label class="labeltech" for="9">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="9" id="9">
+                  <img src="../../../assets/img/icons/go.svg" alt="GO" />
+                </label>
+                <label class="labeltech" for="10">
+                  <input (click)="tack()" class="techs" type="checkbox" name="#" value="10" id="10">
+                  <img src="../../../assets/img/icons/elixir.svg" alt="Elixir" />
+                </label>
+            </div>
+          </div>
+          <div class="price-details d-{{price}} flex-column align-items-center">
+            <h6>{{'contact-us.title4' | translate}}</h6>
+            <div class="price-details-item w-100 d-flex justify-content-evenly">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="op1" id="op1" value="option1">
+                <label class="form-check-label" for="op1">{{'contact-us.op1' | translate}}</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="op1" id="op2" value="option2">
+                <label class="form-check-label" for="op2">{{'contact-us.op2' | translate}}</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="op1" id="op3" value="option2">
+                <label class="form-check-label" for="op3">{{'contact-us.op3' | translate}}</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="op1" id="op4" value="option2">
+                <label class="form-check-label" for="op4">{{'contact-us.op4' | translate}}</label>
+              </div>
+            </div>
+          </div>
+          <form class="d-{{form}}" action="/send-mail" method="POST" [formGroup]="formulario" (ngSubmit)="enviar()">
+
+            <div class="form-floating mb-3">
+              <input formControlName="name" autocomplete="off" type="text" class="form-control" id="name"
+                placeholder="{{'contact-us.name' | translate}}">
+              <label for="name">{{'contact-us.name' | translate}}</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input  formControlName="email"  autocomplete="off" type="email" class="form-control" id="email"
+                placeholder="{{'contact-us.email' | translate}}">
+              <label for="email">{{'contact-us.email' | translate}}</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input  formControlName="phone" autocomplete="off" type="tel" class="form-control" id="phone"
+                placeholder="{{'contact-us.phone' | translate}}">
+              <label for="phone">{{'contact-us.phone' | translate}}</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input  formControlName="company" autocomplete="off" type="text" class="form-control" id="name-company"
+                placeholder="{{'contact-us.company' | translate}}">
+              <label for="name-company">{{'contact-us.company' | translate}}</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input  formControlName="rank" autocomplete="off" type="text" class="form-control" id="rank"
+                placeholder="{{'contact-us.rank' | translate}}">
+              <label for="rank">{{'contact-us.rank' | translate}}</label>
+            </div>
+
+            <div class="form-floating">
+              <textarea  formControlName="helpYou" class="form-control" placeholder="{{'contact-us.help' | translate}}" id="help-you"></textarea>
+              <label for="help-you">{{'contact-us.help' | translate}}</label>
+            </div>
+            <div class="form-floating">
+              <textarea  formControlName="product" class="form-control" placeholder="{{'contact-us.product' | translate}}" id="product"></textarea>
+              <label for="product">{{'contact-us.product' | translate}}</label>
+            </div>
+            <div class="form-floating">
+              <textarea  formControlName="metas" class="form-control" placeholder="{{'contact-us.metas' | translate}}" id="metas"></textarea>
+              <label for="metas">{{'contact-us.metas' | translate}}</label>
+            </div>
+            <div class="form-floating">
+              <textarea formControlName="time" class="form-control" placeholder="{{'contact-us.time' | translate}}" id="time"></textarea>
+              <label for="time">{{'contact-us.time' | translate}}</label>
+            </div>
+            <div class="dtn d-flex justify-content-center ">
+              <button type="submit" class="btn">{{'contact-us.btn' | translate}}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+

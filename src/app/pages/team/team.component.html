@@ -1,0 +1,91 @@
+<div class="team row">
+  <app-header></app-header>
+  <div class="col-12 team-section1 position-relative">
+    <div
+      class="d-flex flex-column justify-content-between align-items-center h-100"
+    >
+      <div class="d-flex flex-column align-items-center team-section1-box1">
+        <h2 class="text-center">{{ "team-page.title" | translate }}</h2>
+        <p class="text-center">
+          {{ "team-page.p" | translate }}
+        </p>
+        <a routerLink="/contact-us" href="#">{{ "contact" | translate }}</a>
+      </div>
+      <div class="team-section1-box2-bg w-100">
+        <div class="col-12 d-flex justify-content-center team-section1-box2">
+          <div
+            class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+          >
+            <h5 class="text-center my-0 text-md-start">
+              {{ "home.section6.h51" | translate }}<br />
+              {{ "home.section6.h52" | translate }}
+            </h5>
+            <a routerLink="/contact-us" class="btn my-0">{{
+              "home.section6.btn" | translate
+            }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-directors">
+      <img src="../../../assets/img/team/bayron.png" alt="Bayron Hernandez" />
+      <img src="../../../assets/img/team/danny.png" alt="Danny Hernandez" />
+      <img src="../../../assets/img/team/kamila.png" alt="Kamila Hernandez" />
+      <img src="../../../assets/img/team/paula.png" alt="Paula Hernandez" />
+    </div>
+  </div>
+
+  <div class="team-section2 ">
+    <div class="team-section2-bg row">
+      <div class="team-section2-box1 col-12">
+        <div class="d-flex flex-column align-items-center justify-content-end">
+          <h2 class="text-center my-0 text-md-start"> {{ "team-page.title2" | translate }}</h2>
+          <p class="text-center">
+            {{ "team-page.p2" | translate }}
+          </p>
+        </div>
+      </div>
+      <div class="team-section2-box2 col-12 d-flex flex-column align-items-center mt-4">
+        <h2 class="text-center my-0 text-md-start">{{ "team-page.title3" | translate }}</h2>
+        <p class="text-center">
+          {{ "team-page.p3" | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-section3 row px-0">
+    <div class="team-section3-box1 col-12 px-0">
+      <app-slider-team1></app-slider-team1>
+    </div>
+    <div class="team-section3-box2 col-12 px-0 mt-5">
+      <app-slider-team2></app-slider-team2>
+    </div>
+    <div class="team-section3-box3 col-12 px-0 mt-5 ">
+      <h2 class="text-center">{{ "team-page.work" | translate }}</h2>
+      <div class="team-section3-box3-bg"></div>
+      <div class="team-section3-box3-items">
+        <div (click)="email()">
+          <h6>{{ "team-page.title4" | translate }}</h6>
+          <p>{{ "team-page.p4" | translate }}</p>
+        </div>
+        <div (click)="email()">
+          <h6>{{ "team-page.title5" | translate }}</h6>
+          <p>{{ "team-page.p5" | translate }}</p>
+        </div>
+        <div (click)="email()">
+          <h6>{{ "team-page.title6" | translate }}</h6>
+          <p>{{ "team-page.p6" | translate }}</p>
+        </div>
+        <div (click)="email()">
+          <h6>{{ "team-page.title7" | translate }}</h6>
+          <p>{{ "team-page.p7" | translate }}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<app-partners></app-partners>
+

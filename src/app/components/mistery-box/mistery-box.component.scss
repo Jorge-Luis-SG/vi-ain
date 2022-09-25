@@ -1,0 +1,87 @@
+@import "../../../styles.scss";
+
+// {
+//   padding-left: 2.3rem;
+  .mistery-container {
+    background-image: url(../../../assets/img/bg-dart.png);
+    background-size: cover;
+    width: 100%;
+    animation: mistery-box-content 2s ease-in-out 2s infinite
+      alternate-reverse;
+    margin-left: 0.5rem;
+    @media screen and (max-width:992px){
+      margin:0 auto;
+    }
+    &-top {
+      background-color: #ffffff60;
+      padding: 0.6rem 1.2rem;
+      backdrop-filter: blur(11px);
+      border-radius: 1rem 1rem 0 0;
+      transform: translateY(-10px);
+      h6 {
+        @extend %gbold;
+      }
+      p {
+        font-size: 0.9rem;
+        @extend %hnormal;
+      }
+      .box2 {
+        h6 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+    &-bg {
+      height: 240px;
+      img {
+        max-width: 320px;
+        width: 90%;
+        animation: mistery-box 2s ease-in-out 2s infinite alternate-reverse;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      padding: 0;
+      &-container {
+        margin: 10rem auto 2rem;
+        width: 80%;
+        &-top {
+          background-color: #ffffff60;
+          padding: 0.6rem 1.2rem;
+          backdrop-filter: blur(11px);
+          border-radius: 1rem 1rem 0 0;
+          transform: translateY(-10px);
+          .box2 {
+            h6 {
+              font-size: 1rem;
+            }
+          }
+        }
+        &-bg {
+          height: 220px;
+          img {
+            max-width: 320px;
+            width: 90%;
+            transform: scale(1.1) translateY(-1px);
+          }
+        }
+      }
+    }
+  }
+
+// }
+@keyframes mistery-box {
+  0% {
+    transform: scale(1.1) translateY(0);
+  }
+  100% {
+    transform: scale(1.125) translateY(15px);
+  }
+}
+@keyframes mistery-box-content {
+  0% {
+    box-shadow: 0rem 1rem 5rem -0.5rem $color1;
+  }
+  100% {
+    box-shadow: 0rem 1rem 5rem -1.5rem $color1;
+  }
+}

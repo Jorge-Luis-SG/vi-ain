@@ -1,0 +1,329 @@
+
+{
+  "headerhome":"Inicio",
+  "headermint":"Mint",
+  "headerservices":"Servicios",
+  "headerPortafolio":"Portafolio",
+  "headerAlianzas":"Alianzas",
+  "headerEquipo":"Equipo",
+  "headerBlog":"Blog",
+  "contact":"Contáctanos",
+  "readmore":"Leer Más",
+  "showmore":"Ver Más",
+  "website":"Website",
+
+
+  "team":{
+    "rank":"DIRECTOR",
+    "byrondesc":"Amante de la naturaleza, fiel creyente de la libertad y realización del ser humano desde la positiva canalización de la energía y la descentralización desde la tecnología. Trader e inversionista en Criptomonedas desde el 2019. Advocate/representante de Chainlink en latinoamerica.",
+
+    "dannydesc":"Project manager y creativo de proyectos, intuitivo, proactivo, me encantan los videojuegos y la tecnología, conocer y explorar, ver potencial y encontrar oportunidades donde otros no las ven.",
+
+    "kamirank":"Directora de Marketing",
+    "kamidesc":"Directora de Marketing, comunicadora y productora audiovisual, amante de la realización de contenido audiovisual para redes sociales y plataformas digitales. Amante de las artes creativas y fan de las series de ciencia ficción.",
+
+    "pauladesc":"Concept idea, apasionada por el mundo blockchain, especialista en estructuración de proyectos, entusiasta de las criptomonedas desde el 2019, amante de la tecnología y fiel creyente de que blockchain es la transformación del sistema que hoy conocemos."
+  },
+  "home":{
+    "section1":{
+      "h6":"Únete a nosotros",
+      "btn":"Deck",
+      "parrafo":"Una empresa de Innovación Digital, Enfocada en explorar desarrollar proyectos que transformen a través de la tecnología BLOCKCHAIN."
+    },
+    "section2":{
+      "h41-box1":"¡Suscríbete a",
+      "h42-box1":"Nuestro Boletín Semanal!",
+      "parrafo-box1":"Con nuestras noticias podras estar al tanto de las ultimas noticias y tendencias en el mundo de cryptoactivos, NFT y diseño",
+      "btn-box2":"SUSCRIBETE",
+      "btn-placeholder-box2": "Ingresa tu email",
+      "h4-box3":"SOBRE NOSOTROS",
+      "parrafo-box3":"En nuestros inicios, en el 2020, éramos un grupo dedicado al arte y la creación de productos blockchain. Nuestra actitud no ha cambiado, pero desde entonces, hemos crecido hasta convertirnos en un equipo de profesionales con las habilidades que el mundo demanda hoy, valiéndonos de las oportunidades que brinda la tecnología blockchain."
+    },
+    "section3":{
+      "h4":"MINT GRATIS",
+      "parrafo":"Reclama tu acceso a la comunidad ví-ain, Launchpad, earn, education, y más"
+    },
+    "section4":{
+      "h4":"NUESTROS SERVICIOS",
+      "parrafo":"Vi–ain’s entiende que cada proyecto es único con requerimientos y necesidades diferentes, toma cada una de sus piezas y lo potencializa.",
+
+      "card1-title":"TOQUENIZACIÓN",
+      "card1-hover1":"Expertos en la creación y desarrollo de Smart Contracts, tokens y plataformas web 3 según las necesidades del cliente.",
+      "card1-hover2":"DAO - DEX - Token - DAPP - DEFI - SWAP - WEB 3.0 - Plataforms - Smart Contracts - Tokenomics.",
+
+      "card2-title":"DESARROLLO",
+      "card2-hover1":"Asesoramiento, conceptualización y desarrollo de proyectos, productos y compañías en el metaverso.",
+      "card2-hover2":"Meta Development, Meta Access, Smart Contract Functions, VR animation - AR Experiencies - Architect & Construction - Render - 3D Modelation.",
+
+      "card3-title":"LANZAMIENTO DE COLECCION",
+      "card3-hover1":"Creamos, desarrollamos y gestionamos colecciones estratégicas que permitan a sus creadores y su comunidad obtener beneficios duraderos.",
+      "card3-hover2":"Road map - Marketing - Branding -  Art 2D - Art 3D - Minting - Community - Graphic design - Web design - Social media - Web 3.0 - partnership - Pool - Post sale."
+    },
+    "section5":{
+      "h4":"PORTAFOLIO"
+    },
+    "section6":{
+      "h51":"Creación de Software Innovador",
+      "h52":"para Líderes de la Industria",
+      "btn":"Háblanos de tu proyecto"
+    }
+  },
+  "mint":{
+    "welcome":"Bienvenido a",
+    "section1":{
+      "parrafo":"Vi-Labs es una incubadora de proyectos blockchain enfocada en explorar tecnologías con utilidad en las diferentes industrias del mercado aplicando los beneficios que blockchain brinda como efectividad, seguridad, transaccionalidad y transparencia. Haz parte de esto a través de nuestra comunidad, invierte y gana con nosotros.",
+      "h6":"PRESENTANDO CON ORGULLO",
+      "discord":"DISCORD MEMBERS",
+      "twitter":"TWITTER FOLLOWERS",
+      "suply":"TOTAL SUPPLY",
+      "unique":"UNIQUE TRAITS"
+    },
+    "section2":{
+      "h4":"Una comunidad vibrante",
+      "h42":"Cambiando la educación Blockchain",
+      "parrafo":"Únete a vi-ain’s, aquí encontrarás toda la información acerca de nuestros proyectos y actualizaciones de la comunidad.",
+      "btn":"Únete a Discord"
+    },
+    "section3":{
+      "h4":"Nuestra",
+      "h42":"Misión",
+      "parrafo":"Creación de un ecosistema que permita a las empresas, proyectos y personas conectar entre ellos, construyendo oportunidades que les permitan crecer, explorar y ganar, dando acceso a que cualquier persona pueda hacer parte del mundo blockchain.",
+      "btn":"Whitepaper"
+    },
+    "team":{
+      "h4":"Conoce al Equipo",
+      "parrafo":"La tecnología por sí sola no es suficiente para tener éxito, cada producto necesita un equipo de personas apasionadas que den lo mejor de sí. Aquí están los chiflados que hacen esto posible."
+    },
+    "section4":{
+      "ac1":"¿En qué Blockchain está la colección?",
+      "ac1-r":"Red Ethereum",
+      "ac2":"¿Cuál es el suministro total?",
+      "ac2-r":"6.500 NFT",
+      "ac3":"¿Precio de Mint?",
+      "ac3-r":"El mint es 100% gratis.",
+      "ac4":"¿Mint máximo por billetera?",
+      "ac4-r":"3 máximo por billetera.",
+      "ac5":"¿Cuál es la utilidad?",
+      "ac5-r":"Staking y pertenecer al ecosistema de Vi-ain's."
+    }
+  },
+  "portfolio":{
+    "title1": "Nuestro Equipo",
+    "title2": "ha Trabajado",
+    "title3": "en",
+    "parrafo": "Desarrollo e integración de proyectos que combinan soluciones del mundo blockchain aplicadas en la industria y en cualquier sector según las necesidades de cada uno. ",
+    "btn2":"Free Mint",
+    "h4":"PROYECTOS RECIENTES",
+    "verProyectos" : "Ver todos los proyectos",
+
+    "disruptive":"Una comunidad de inversión a través de un box de tokenización de proyectos de industria que llega al espacio cripto para impulsar y realizar  proyectos disruptivos que  respeten el medio ambiente, generen empleo de calidad y desarrollo social en las áreas donde se lleven a cabo.",
+
+    "panda":"Más que un aliado estratégico, se ha convertido en el puente que conecta ideas creativas emergentes por medio de series animadas entretenidas e irreverentes, de la mano del mundo inmersivo que entrega el Metaverso y las inmensas posibilidades de la WEB3.",
+
+    "nftix":"NFTIX es la revolución del entretenimiento aplicando la tecnología WEB 3.0. Una plataforma que  transforma el mundo de los eventos a través de la boletería, permitiendo que las entradas sean seguras, únicas y controladas.",
+
+    "mest":"Te presentamos el futuro de las plataformas de Streaming y producciones audiovisuales, MEST es un proyecto donde podrás ser usuario o creador, y de ambas formas beneficiarte.",
+
+    "web":{
+      "stack1":"Web Development",
+      "stack2":"Product Design",
+      "stackt3":"Vue.Js Development",
+      "stackt4":"Blockchain Development",
+      "compaign":"La Compañía",
+      "hour":"HORAS PROYECTO",
+      "profesionales":"Profesionales",
+      "alcance":"Alcance y Destacados",
+      "reto":"El Reto",
+      "proceso":"El Proceso",
+      "resultado":"El Resultado",
+
+
+      "disruptive":{
+        "desc1":"Disruptive Land es una plataforma de inversión enfocada en la tokenización de proyectos de industria en sector como: energías renovables, alimentación, agricultura, infraestructuras, medio ambiente y sostenibilidad, entre muchos otros, teniendo como característica principal ser proyectos que impacten de manera positiva los aspectos sociales y medioambientales disminuyendo el impacto en huella de carbono, exceso de explotación y materias primas, utilizando métodos de tecnología e innovación que permitan nuevas formas de desarrollo de negocio permitiendo a cualquier persona ser parte de esta comunidad de inversores que les beneficie generando rentabilidades a mediano y largo plazo sobre proyectos tangibles.",
+
+        "reto":"El mayor reto para este proyecto fue la integración de la tecnología blockchain DEFI a las propuestas de industria, poder construir una plataforma completa y adjuntar smart contract que cumplan con la necesidad de cada proyección, distribución de rentabilidades automática y el almacenamiento de la data para el eguimiento del progreso de cada uno de estos y el acceso a la información para cada inversión y acceso seguro.",
+
+        "proceso":"La línea de seguimiento de seguimiento inicia con el acercamiento de todas las partes implicadas, el grupo empresarial europeo que está detrás de cada uno de estos proyectos, y el equipo de tecnología de vi-ains, se desarrolla el concepto principal de Disruptive Land con todas las ideas sobre la mesa, una vez realizado este acercamiento como equipo se definió la viabilidad técnica del proyecto, requerimientos de desarrollo y ejecución, iniciamos proceso creativo para definir branding, líneas gráficas e identidad visual, una vez terminado esto, estamos listos para las integraciones y web 2.0 y contenidos, y finalmente terminamos con la integración de la web 3.0, verificaciones,tokenización y smart contract. Así tenemos un producto terminado y listo para iniciar todo el proceso de marketing.",
+
+        "resultado":"Este BOX será lanzado a la comunidad en el Q4 del 2022, trabajando su inclusión en diferentes comunidades de inversores criptos interesados no solamente en el mercado digital si no en la diversificación de sus capitales teniendo la oportunidad de participar de proyectos con activos tangibles e identificables y con un equipo de respaldo mundial."
+      },
+      "mest":{
+        "desc1":"MEST es el futuro de las plataformas de Streaming y producciones audiovisuales, un proyecto donde podrás ser usuario o creador, y de ambas formas beneficiarte, busca Transformar la industria del streaming y la forma en que hoy consumimos contenido enfocados en la aplicación de las nuevas tecnologías que nos permiten conectar, crear y ganar de una forma distinta a través de 3 etapas que sin duda marcarán un antes y después, un MVP web 3.0 que permite la aplicación de smart contracts para todas las partes y beneficiar a creadores, consumidores y comunidad, una fase dentro del metaverso con la construcción de contenidos inmersivos e interactivos cambiando la forma plana en la que hemos consumido contenido y una tercera fase de aplicación de la tecnología transformando los espacios físicos como el cine e implementado tecnologías 5D que te lleven no solamente a ver sino también a sentir las producciones audiovisuales.",
+
+        "reto":"Uno de los grandes retos para MEST es la construcción de nuevos contenidos para el consumidor que generen una experiencia diferente a la que hoy conocemos a la hora de ver series, películas o cualquier otro contenido disponible, analizando las ventajas que hoy nos presenta la tecnología y los elementos en ellas, produciendo así a través de la aplicación de estas, una transformación en las narrativas que cuentan historias e incluso en aspectos económicos como la financiación de producciones, dando espacio así a nuevos creadores y a nuevas propuestas dentro de la industria del cine, la televisión y el streaming, bajando el monopolio de estas industrias y abriendo las posibilidades para cualquiera dentro de la comunidad tomando como criterio el gusto propio del usuario y haciéndolos parte de esto. ",
+
+        "proceso":"Como cada uno de  nuestros proyectos inicia identificando una necesidad dentro de una industria, en este caso como se puede potencializar la industria del streaming y contenido con las posibilidades que nos ofrece blockchain como tecnología, y las integraciones de desarrollos sensitivos e inmersivos como oculus o tesla suit. De esta forma surge un proyecto completo en todas sus aristas y que integra a cada uno de los actores de la industria, consumidores, creadores y productores y que además les permite ser cualquiera de estos dentro del ecosistema, dando acceso a la comunidad misma a ser los capitalizadores y productores de series, películas y generando rentabilidad, así mismo siendo consumidores del contenido y desarrollando así un ecosistema sostenible que permite las interacciones en todos sus puntos.",
+
+        "resultado":"Mest es un mega proyecto que está desarrollado por fases: En el Q3 del 2022 sale la primera colección NFT de early adopters con beneficios monetarios y de acceso que serán vitalicios para estos primeros participantes, iniciando entonces con el desarrollo técnico, el MVP está previsto para el Q1 del 2023, estará disponible para la comunidad que adquirió el NFT y se anunciaran las alianzas estratégicas en este proceso, en adelante se anunciará las siguientes actualizaciones y el lanzamiento de las próximas fases, un desarrollo proyectado de 3 a 5 años."
+      },
+      "nftix":{
+        "desc1":"NFTIX  es la revolución del entretenimiento aplicando la tecnología WEB 3.0. La tecnología WEB3.0, blockchain, está transformando el mundo y esta no es la excepción, esta plataforma transforma la industria de los eventos a través de la boletería, permitiendo que las entradas sean SEGURAS - ÚNICAS - IRREPETIBLES.",
+
+        "reto":"Algunos de los mayores retos que tiene la industria de los eventos es la falsificación de boletería, la compra y reventa descontrolada de tickets. NFTIX entra a solucionar este proceso gracias a la tecnología blockchain aplicada a través de los NFT, que permitirán a promotores y realizadores de eventos, conciertos, festivales, la mitigación de todo esto. Seguirá siendo un reto además lograr la adopción de estos métodos a las personas, simplificando los procedimientos.",
+
+        "proceso":"La identificación de las necesidades en un sector específico da nacimiento a esta plataforma, NFTIX es un proceso de exploración de mercadow y de integración tecnológica que permite encontrar una solución a las coyunturas relacionadas con la industria, creando así una experiencia fácil y sencilla para los usuarios como compradores y traerá grandes beneficios para los organizadores y promotores de eventos. Todo el procedimiento fue desarrollado por el equipo de Vi-ains, desde el análisis de mercado hasta la viabilidad técnica, entiendo como la aplicación de la tecnología puede mejorar estos aspectos y haciendo esto de fácil acceso para las comunidades y creadores alrededor del mundo, una plataforma funcional, descentralizada y con una comunidad de interés que cada dia crece mas.",
+
+        "resultado":"NFTIX será lanzado a la comunidad en el Q4 del 2022, con la inclusión de varias empresas y eventos que la utilizaran como su principal tiquetera, específicamente convenciones y conferencias que se realizarán finalizando el año y que estarán disponibles sólo a través de esta plataforma."
+      },
+      "padarian":{
+        "desc1":"Nutso es un estudio incubador de ideas creativas que buscan ser reproducidas en multiplataforma digitales o canales de streaming, historias que sumergirán al usuario en mundos de posibilidades y fantasías, apalancándose de la experiencia de productoras como Mero Estudio y de la tecnología y posibilidades que ofrece Blockchain y el Metaverso. Un aliado estratégico para mentes que buscan salirse de lo establecido y conocido, un puente que conecta ideas emergentes por medio de series animadas, entretenidas e irreverentes, al igual que colecciones de NFT que traen consigo todo una historia de peso y utilidad detrás. La autenticidad individual, el factor insospechado de la unicidad, el atrevimiento por hacer las cosas diferente, la audacia que entrega el querer crecer, el espíritu aventurero y la nunca imperdible curiosidad es lo que diferencia a Nutso de todo lo demás.",
+
+        "reto":"El mayor reto para este proyecto es salirse del molde creativo que tiene presas ideas irreverentes y prometedoras, concientizar tanto a creativos y artistas sobre las posibilidades infinitas que ofrece el mundo del Blockchain y el futuro inmersivo con el Metaverso, hablar en el lenguaje de la WEB3 y hacer posible la visibilización de la democratización del arte a través de las nuevas tecnologías. Nutso llega al panorama para cambiar las reglas y para entregar proyectos con valor visual, social y educativo.",
+
+        "proceso":"Todo inició con la necesidad de tener un estudio creativo conceptualizador y creador de ideas para series animadas y colecciones de NFT, una vez planteados los objetivos y metas se procedió a darle forma a un equipo compuesto por curiosas y potentes mentes que conocieran y entendieran la aplicabilidad de la tecnología al arte en general, para así pasar a construir proyectos con valor visual, social y educativo de la mano de las posibilidades que ofrece Blockchain y el Metaverso. Una vez el equipo quedó establecido, lo siguiente fue darle forma a los valores e imagen de la marca en la WEB 2.0 con contenidos atractivos para encontrar nuevas ideas aplicables, trabajo consecutivo con las ideas que ya estaban puestas sobre la mesa durante el proceso de construcción de la marca. Con esto, son dos los proyectos en marcha de Nutso, dispuestos para explotar en todas las plataformas dentro de la WEB3.",
+
+        "resultado":"Proyectos animados y de NFT con valor gráfico, social y educativo lanzados a la Blockchain y sumergidos en el nuevo mundo inmersivo del Metaverso, entretenimiento que genera conciencia y utilidad para comunidades cripto y público Blockchain que busca maneras diferentes de consumir contenido transmedia y de la más alta calidad. Ideas emergentes que llegan a cambiar las mentes y las maneras de ver la tecnología y su usabilidad."
+      },
+
+      "paula":"Estos desarrollos abren la oportunidad de unir el mundo digital con la industria generando proyectos tangibles que están al alcance de cualquier persona y que traen propuestas atrevidas, ha sido toda una experiencia explorar este universo"
+    }
+  },
+  "blog":{
+    "more-blogs":"Read more from this category",
+    "newones":"New Ones",
+    "old":"Oldest",
+    "principal":{
+      "title":"Latest Posts",
+      "posted":{
+        "a1":{
+          "title":"Golang 101: All the Basics You Need to Know",
+          "desc":"Go (or Golang) is definitely not the most popular programming language, but its over 10-year journey in the development world goes slowly but surely, revealing many advantages over other, more prominent, backend...",
+          "date":"Kaja Grzybowska • August 24, 2022"
+        },
+        "a2":{
+          "title":"Multiprocessing vs Multithreading in Python – Explained With Cooking",
+          "desc":"A (not) short story about how I came to understand the discrete difference between multiprocessing and multithreading.",
+          "date":"Michał Stachura • July 28, 2022"
+        }
+      }
+    },
+    "menu":{
+      "1":"Most Recent",
+      "2":"Development",
+      "3":"Product Design",
+      "4":"IoT",
+      "5":"Business",
+      "6":"Agile",
+      "7":"Culture"
+    },
+    "component":{
+      "item1":{
+        "alt":"Computer",
+        "btn1":"Python",
+        "btn2":"Backend",
+        "desc":"A (not) short story about how I came to understand the discrete difference between multiprocessing and multithreading.",
+        "date":"Michał Stachura • July 28, 2022"
+      }
+    },
+    "page-blog":{
+      "blog1":{
+        "title1":"Golang 101: All the Basics You Need to Know",
+        "date":"Kaja Grzybowska • August 24, 2022",
+        "p1":" Go (or Golang) is definitely not the most popular programming language, but its over 10-year journey in the development world goes slowly but surely, revealing many advantages over other, more prominent, backend languages.",
+        "p1-1":"Having said this now is a good moment to take a closer look at Go's origins and find out why Go remains the language that programmers are willing to explore.",
+        "title2":"Go or Golang?",
+        "p2":" Before deep diving into ancient history and tech-related        details, the name clarification should occur: Go or Golang?",
+        "p2-2":"The thing is, both are correct. The language is officially called Go. The 'Golang' nickname arose because the website is golang.org, not go.org, which was unavailable at the time. Initial confusion turned out to be a good thing, as the 'Golang' moniker is more unique and thus more searchable on the internet than the common 'Go'. Even on social media, the hashtag #golang is dominant regardless of the official Go name of the language.",
+        "title3":"The language name is Go, not GO, even though there are two capital letters on the official logo.",
+        "p3":"Before deep diving into ancient history and tech-related details, the name clarification should occur: Go or Golang?",
+        "p3-3":"The thing is, both are correct. The language is officially called Go. The 'Golang' nickname arose because the website is golang.org, not go.org, which was unavailable at the time. Initial confusion turned out to be a good thing, as the 'Golang' moniker is more unique and thus more searchable on the internet than the common 'Go'. Even on social media, the hashtag #golang is dominant regardless of the official Go name of the language.",
+        "title4":"What is Golang?",
+        "p4":"Go (Golang) is an open-source, backend programming language used for:",
+        "p4-1":"Server management",
+        "p4-2":"Web development",
+        "p4-3":"Cloud infrastructure setting",
+        "p4-4":"And command-line interfaces",
+        "p4-5":"Go was born out of frustration that was growing among Googlers struggling with other backend languages. They shared a common, burning dislike for C++ in particular. Developers considered it sluggish, demanding, over-complicated, and - this is the worst sin - unstable and slowing down the development process. Long story short, C++, excellent at 'old simpler times,' uncovered its flaws in the era of multicore, networked machines, huge codebases, and AI-driven and cloud-native solutions.",
+        "p4-6":"The search for a better alternative began in 2007, kickstarted by Robert Griesemer, Rob Pike, and Ken Thompson. They were employed at Google back then, and the corporation suffered from many inconveniences from using complicated and confusing programming languages, mainly C-related. The trio decided that it would be a good direction not to focus on overcoming challenges C implied but on developing a better alternative for C. They focused on cherry-picking the best-of-breed features of other languages (besides C++, also Python, and Ruby), combining them smoothly, and wrapping them up in convenient, modern form."
+
+      }
+    }
+  },
+  "services":{
+    "desarrollo":{
+      "title":"Desarrollo En ",
+      "ruby":"Ruby On Rails Development",
+      "node":"Node.Js Development"
+    },
+    "page":{
+      "title":"Encuentre su Servicio de Desarrollo de Blockchain",
+      "btn":"Obtener Presupuesto",
+      "title2":"Lo Que Hacemos Mejor",
+      "title3":"Tecnologías",
+      "title4":"Servicios Específicos de la Industria",
+      "card1":"Ecommerce Development",
+      "card1-1":"Leverage the power of sales online, with a customized ecommercer platform that suits your needs.",
+      "card2":"Payment Integrations",
+      "card3":"Fintech Development",
+      "card4":"Metaverse Development",
+      "title5":"Tus Necesidades. Nuestra Experiencia",
+      "title6":"Servicio completo y en casa",
+      "p1":"Podemos ejecutar su proyecto de principio a fin sin involucrar a ningún contratista remoto. Diseñadores de productos, especialistas en control de calidad, desarrolladores, analistas comerciales: todos trabajarán juntos, uno al lado del otro (literalmente), asegurando un trabajo en equipo fluido.",
+      "title7":"Soporte técnico líder",
+      "p2":"Un líder técnico dedicado se asegura de que el proyecto funcione como una máquina bien engrasada. Si es necesario, asumirán el rol de su CTO virtual y actuarán como guardianes de la calidad del código.",
+      "title8":"Equipo elegido cuidadosamente",
+      "p3":"Unimos a las personas con los proyectos, no al revés. Una vez que conozcamos sus expectativas, armaremos un equipo con amplia experiencia en la creación de productos similares a los suyos. Podrá trabajar con expertos reales y bien informados."
+
+
+
+
+    }
+  },
+  "contact-us":{
+    "title":"Cuéntanos Acerca de tu Proyecto",
+    "desc":"Revisaremos tu envío y nos pondremos en contacto con usted en un plazo de 24 horas para hablar de su proyecto.",
+    "title2":"¿Qué servicios estás buscando?",
+    "title3":"¿En qué tecnología quieres trabajar?",
+    "title4":"¿Cuál es tu presupuesto?",
+    "op1":"Menos de $ 1,000",
+    "op2":"$1k-$3k",
+    "op3":"$3k-$5k",
+    "op4":"Sin revelar",
+    "name":"Tu nombre",
+    "email":"Correo de empresa",
+    "phone":"Número de teléfono",
+    "company":"Nombre de la empresa",
+    "rank":"Cargo en la empresa",
+    "help":"¿Cómo podemos ayudarte?",
+    "product":"¿Qué hará su producto y quién lo usará?",
+    "metas":"¿Qué metas estás buscando lograr?",
+    "time":"¿Cuál es tu línea de tiempo?",
+    "btn":"Enviar Solicitud de Presupuesto"
+  },
+  "team-page":{
+    "dannydesc":"Project manager y creativo de proyectos, intuitivo, proactivo, me encantan los videojuegos y la tecnología, conocer y explorar, ver potencial y encontrar oportunidades donde otros no las ven.",
+
+    "title":"Así es Como Lo Hacemos",
+    "p":"Cosas maravillosas pasan cuando pones a la gente junta en un espacio donde dejas hacer de las suyas.",
+    "title2":"¿Cómo Trabajamos?",
+    "p2":"La creatividad y el entusiasmo juegan un papel importante en cada uno de los proyectos que desarrollamos, llevamos a cabo un proceso de exploración y reconocimiento para entender las necesidades y las oportunidades que permitan destacar en el mercado. En Vi-ain’s nos gustan los retos y la innovación y sabemos que la tecnología blockchain nos pone delante de un mundo nuevo que está transformando las dinámicas de la industria y los lineamientos financieros del mundo. Creamos, conceptualizamos y desarrollamos los proyectos del futuro.",
+    "work":"Trabaja con Nosotros",
+    "title3":"Nuestro Equipo",
+    "p3":"La tecnología sola no es suficiente, para cada proyecto se necesita un equipo apasionado de personas que den vida a cada uno de estos.",
+    "title4":"Diseñador UX/UI",
+    "p4":"El candidato ideal debe tener buen ojo para el diseño limpio e ingenioso, y ser capaz de traducir requisitos de alto nivel en interfaces de usuarios elegantes e intuitivos.",
+    "title5":"Desarrollador Full Stack",
+    "p5":"CSS, HTML, JavaScript, Sass, Scala, AngularJS, Node.js. Si conoce algo básico en SOLIDITY/ RUST es un plus.",
+    "title6":"Traductor Certificado",
+    "p6":"Traducción de Documentos, Páginas Web, Whitepaper, etc. Todos enfocados en Blockchain.",
+    "title7":"Creador de Contenido Web",
+    "p7":"Redacción, edición y actualización de contenido: materiales de marketing, promoción, email, sitios web, blogs y más."
+
+  },
+
+
+
+  "development":"Development",
+  "computer":"Computer",
+  "news":"News",
+  "stack":{
+    "web":"Desarrollo Web",
+    "movil":"Desarrollo Movil",
+    "design":"Diseño De Producto",
+    "mvp":"Desarrollo MVP",
+    "blockchain":"Desarrollo Blockchain",
+    "meta":"Desarrollo Meta"
+
+
+  }
+}

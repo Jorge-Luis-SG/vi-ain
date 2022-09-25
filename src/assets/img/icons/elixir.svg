@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.731" height="132.022" viewBox="0 0 131.731 132.022">
+  <g id="Grupo_291" data-name="Grupo 291" transform="translate(-1030.448 -535.398)">
+    <g id="Grupo_8" data-name="Grupo 8" transform="translate(-1653 -1914)">
+      <ellipse id="Elipse_45" data-name="Elipse 45" cx="65.366" cy="65.511" rx="65.366" ry="65.511" transform="translate(2683.948 2449.898)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Grupo_14" data-name="Grupo 14" transform="translate(-1653 -1914)">
+      <g id="Grupo_266" data-name="Grupo 266">
+        <g id="Grupo_264" data-name="Grupo 264" opacity="0.13">
+          <path id="Trazado_170" data-name="Trazado 170" d="M2784.686,2529.835a5.326,5.326,0,0,1,0,7.556l-5.848,5.848a5.3,5.3,0,0,1-3.778,1.552h-51.493a5.3,5.3,0,0,1-3.777-1.552l-5.848-5.848a5.326,5.326,0,0,1,0-7.556l13.119-13.119h44.506Z" fill="#fff"/>
+        </g>
+        <g id="Grupo_265" data-name="Grupo 265">
+          <path id="Trazado_171" data-name="Trazado 171" d="M2727.061,2516.716l-13.119,13.119a5.326,5.326,0,0,0,0,7.556l5.848,5.848a5.3,5.3,0,0,0,3.777,1.552h51.493a5.3,5.3,0,0,0,3.778-1.552l5.848-5.848a5.326,5.326,0,0,0,0-7.556l-13.119-13.119" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path id="Trazado_172" data-name="Trazado 172" d="M2771.541,2516.716l-11.23-11.23a5.413,5.413,0,0,1-1.552-3.778v-10.35a5.324,5.324,0,0,0-5.331-5.331H2745.2a5.324,5.324,0,0,0-5.331,5.331v10.35a5.413,5.413,0,0,1-1.552,3.778l-11.23,11.23" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path id="Trazado_173" data-name="Trazado 173" d="M2771.567,2516.716h-44.506" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <circle id="Elipse_54" data-name="Elipse 54" cx="2.858" cy="2.858" r="2.858" transform="translate(2740.489 2522.183)" fill="#fff"/>
+      <circle id="Elipse_55" data-name="Elipse 55" cx="1.429" cy="1.429" r="1.429" transform="translate(2746.206 2532.297)" fill="#fff"/>
+      <circle id="Elipse_56" data-name="Elipse 56" cx="2.144" cy="2.144" r="2.144" transform="translate(2756.396 2530.868)" fill="#fff"/>
+    </g>
+    <line id="Línea_1" data-name="Línea 1" x2="28.408" transform="translate(1082.11 572.027)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

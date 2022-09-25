@@ -1,0 +1,89 @@
+@import "../../../styles.scss";
+
+%btnBlog{
+    background-color: #a789ce33;
+    font-weight: 800;
+    min-width: 125px;
+    margin-right: 0.5rem;
+    @extend %hnormal;
+    @media screen and (max-width: 992px) {
+      display: flex;
+      justify-content: center;
+      max-width: 350px;
+      margin: 0 auto 1.5rem;
+    }
+}
+%bg-black{
+  background-color: #1f1730;
+  height: 260px;
+  width: 100%;
+}
+
+.blog {
+  background-image: url(../../../assets/img/portfolio/aros.png),
+    url(../../../assets/img/portfolio/bg-banner.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: center;
+  header {
+    background-color: #00000047;
+  }
+  &-section1 {
+    h2 {
+      max-width: 1535px;
+      width: 94%;
+      margin: 2.5rem auto;
+      @extend %titleh2;
+      @media screen and (max-width: 992px) {
+        text-align: center;
+      }
+    }
+    &-container {
+      @extend %maxWidth;
+    }
+    &-box1 {
+      z-index: 1;
+    }
+    &-box2 {
+      z-index: 1;
+    }
+
+    &-bottom {
+      @extend %bg-black;
+      margin-top: -195px;
+    }
+  }
+  &-section2 {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 9999;
+    padding-top: 2.5rem;
+    &-bg {
+      background-color: #e5deff43;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      justify-content: center;
+      grid-gap: 1.2rem;
+      @extend %maxWidth;
+      @media screen and (max-width: 1100px) {
+        grid-template-columns: repeat(2, auto);
+      }
+      @media screen and (max-width: 767px) {
+        grid-template-columns: repeat(1, auto);
+      }
+    }
+    &-bottom{
+      padding: 4rem 0 3rem;
+      a{
+        color: #11111152;
+        margin: 0 1rem;
+        @extend %hnormal;
+      }
+      .active{
+        color: $color5;
+
+      }
+
+    }
+  }
+}

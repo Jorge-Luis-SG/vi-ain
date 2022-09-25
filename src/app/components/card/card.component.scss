@@ -1,0 +1,74 @@
+@import "../../../styles.scss";
+
+.card {
+  max-width: 320px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  overflow-y: auto;
+  border-radius: 1rem;
+  &::-webkit-scrollbar {
+    display: none; /* Ocultar scroll */
+  }
+  .card-bg2 {
+    pointer-events: none;
+    border-radius: 1rem;
+  }
+  .parrafo {
+    pointer-events: none;
+    p {
+      opacity: 0;
+    }
+  }
+  &:hover {
+    .card-bg2 {
+      background-color: #00000080;
+      height: 100%;
+      max-width: 320px;
+      width: 100%;
+      transition: all 0.3s;
+      padding: 0 2rem;
+      backdrop-filter: blur(6px);
+    }
+    .card-container {
+      height: 0px;
+      transition: 0.5s all;
+      h4,
+      h5 {
+        opacity: 0;
+        pointer-events: none;
+      }
+    }
+
+    .parrafo {
+      margin-top: -3rem;
+      pointer-events: none;
+      p {
+        opacity: 1;
+      }
+    }
+  }
+  &-container {
+    background-color: $color5;
+    max-width: 200px;
+    width: 100%;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding-bottom: 3rem;
+    h4 {
+      font-size: 3rem;
+      @extend %gbold;
+    }
+    h5 {
+      font-weight: 300;
+      font-size: 1.1rem;
+      @extend %gbold;
+    }
+  }
+}

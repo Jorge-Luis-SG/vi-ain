@@ -1,0 +1,48 @@
+@import '../../../../styles.scss';
+@import "../blogs.component.scss";
+
+
+a{
+  color: #ffffff;
+}
+.post {
+  max-width: 640px;
+  border: 1px solid $borde2;
+  border-radius: 1rem;
+  overflow: hidden;
+  &-banner {
+    height: 240px;
+    width: 100%;
+
+    img{
+      max-width: 517px;
+      width: 100%;
+      transform: translateY(17px);
+      object-fit: contain;
+    }
+  }
+  &-main{
+    padding: 1.6rem 2rem;
+    backdrop-filter: blur(60px) brightness(1);
+  }
+  &-btn{
+    a{
+        @extend %btnBlog;
+    }
+  }
+  &-desc{
+    h6{
+      margin: 1.5rem 0 2rem;
+    }
+    p{
+      color: $color6;
+    }
+    span{
+      font-size: .75rem;
+      color: $color6;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    margin-top: 2rem;
+  }
+}

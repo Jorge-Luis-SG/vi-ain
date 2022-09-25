@@ -1,0 +1,39 @@
+@import "../../../styles.scss";
+
+
+.partners {
+    padding: 2rem 1rem;
+    &-h4 {
+      border-right: 2px solid #fff;
+      height: 100px;
+      h4 {
+        padding-right: 4rem;
+        @extend %titleh4;
+      }
+      @media screen and (max-width: 1350px) {
+        border-right: 0px solid #fff;
+        h4 {
+          padding-right: 0;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        h4 {
+          text-align: center;
+        }
+      }
+    }
+    &-img1 {
+      width: 205px;
+    }
+    &-img2 {
+      width: 170px;
+    }
+    &-img3 {
+      width: 75px;
+    }
+    @media screen and (max-width: 992px) {
+      img {
+        margin: 2rem 0;
+      }
+    }
+  }

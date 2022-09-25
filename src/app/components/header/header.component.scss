@@ -1,0 +1,113 @@
+@import "../../../styles.scss";
+
+.header {
+  @extend %maxWidth;
+  padding: 3rem 0;
+  &-section-2 {
+    position: relative;
+    pointer-events: none;
+    .menu-icon {
+      display: none !important;
+    }
+    ul {
+      pointer-events: all;
+      margin: auto;
+      max-width: 700px;
+      a {
+        li {
+          font-family: "Helvetica";
+          font-weight: normal;
+        }
+        .page-active {
+          font-weight: bold;
+          color: $color3;
+          border-bottom: 2px solid $color3;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    padding: 0rem 0;
+
+    &-section-1 {
+      padding: 3rem 0 3rem 3rem;
+    }
+    &-section-2 {
+      position: absolute;
+      overflow: hidden;
+      padding: 3rem 0;
+      height: 100vh;
+      right: 0;
+      z-index: 99999;
+      max-width: 400px;
+      width: 100%;
+      .menu-icon {
+        display: flex !important;
+        padding-right: 3rem;
+        img {
+          pointer-events: all;
+          height: 35px;
+          width: 35px;
+          object-fit: contain;
+          filter: invert(1);
+          cursor: pointer;
+        }
+      }
+      .menu-m {
+        ul {
+          transform: translateY(-200%);
+          margin-top: 2rem;
+          max-width: 150px;
+          opacity: 0;
+          transition: all 0.6s;
+          a {
+            margin: 0.6rem 0;
+          }
+        }
+      }
+    }
+    &-section-3 {
+      margin-top: 1rem;
+      justify-content: start;
+      opacity: 1;
+      transition: all 0.3s ease-out;
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu-active {
+    .header-section-2 {
+      transition: all 0.3s;
+      background: linear-gradient(
+        101deg,
+        rgba(106, 66, 192, 0.6) 0%,
+        rgba(28, 21, 56, 0.4) 100%
+      );
+      backdrop-filter: blur(8px);
+      position: fixed !important;
+      .menu-open {
+        content: url(../../../assets/img/menu-close.png);
+      }
+      .menu-m {
+        ul {
+          transform: translateY(0);
+          margin-top: 2rem;
+          max-width: 150px;
+          opacity: 1;
+          transition: all 0.6s;
+
+          a {
+            margin: 0.6rem 0;
+          }
+        }
+      }
+    }
+    .header-section-3 {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}

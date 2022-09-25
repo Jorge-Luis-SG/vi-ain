@@ -1,0 +1,107 @@
+<div class="blog">
+  <header>
+    <app-header></app-header>
+    <app-top-menu></app-top-menu>
+  </header>
+  <main>
+    <div class="blog-page row">
+      <div
+        class="blog-page-section1 col-12 d-flex flex-column align-items-center px-0 h-100"
+      >
+        <img src="../../../../assets/img/blogs/blogs-items/page1.png" alt="" />
+        <div class="blog-page-section1-content w-100">
+          <div class="blog-page-section1-content-top">
+            <div class="div">
+              <div class="dtn">
+                <a
+                  class="btn d-none"
+                  href="#"
+                  *ngIf="btn1 === ''; else Elseoption"
+                  >{{ btn1 }}</a
+                >
+                <ng-template #Elseoption>
+                  <a class="btn d-block-inline" href="#">{{ btn1 }}</a>
+                </ng-template>
+                <a
+                  class="btn d-none"
+                  href="#"
+                  *ngIf="btn2 === ''; else Elseoption2"
+                  >{{ btn2 }}</a
+                >
+                <ng-template #Elseoption2>
+                  <a class="btn d-block-inline" href="#">{{ btn2 }}</a>
+                </ng-template>
+                <a
+                  class="btn d-none"
+                  href="#"
+                  *ngIf="btn3 === ''; else Elseoption3"
+                  >{{ btn3 }}</a
+                >
+                <ng-template #Elseoption3>
+                  <a class="btn d-block-inline" href="#">{{ btn2 }}</a>
+                </ng-template>
+                <a
+                  class="btn d-none"
+                  href="#"
+                  *ngIf="btn4 === ''; else Elseoption4"
+                  >{{ btn4 }}</a
+                >
+                <ng-template #Elseoption4>
+                  <a class="btn d-block-inline" href="#">{{ btn4 }}</a>
+                </ng-template>
+              </div>
+              <div>
+                <h2 class="blog-page-section1-content-title">
+                  {{'blog.page-blog.blog1.title1' | translate}}
+                </h2>
+                <span class="blog-page-section1-content-date">
+                  {{'blog.page-blog.blog1.date' | translate}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="blog-page-section1-content-main">
+            <div class="blog-page-section1-content-main-bg">
+              <div>
+                <p>
+                  {{'blog.page-blog.blog1.p1' | translate}}<br /><br />
+                  {{'blog.page-blog.blog1.p1-1' | translate}}
+                </p>
+                <h4> {{'blog.page-blog.blog1.title2' | translate}}</h4>
+                <p>
+                  {{'blog.page-blog.blog1.p2' | translate}}<br /><br />
+
+                  {{'blog.page-blog.blog1.p2-2' | translate}}
+                </p>
+                <div class="franja d-flex align-items-center">
+                  <div></div>
+                  <h5>
+                    {{'blog.page-blog.blog1.title3' | translate}}
+                  </h5>
+                </div>
+                <p>
+                  {{'blog.page-blog.blog1.p3' | translate}}<br /><br />
+
+                  {{'blog.page-blog.blog1.p3-2' | translate}}
+                </p>
+                <h6>{{'blog.page-blog.blog1.title4' | translate}}</h6>
+                <p>
+                  {{'blog.page-blog.blog1.p4' | translate}}<br /><br />
+
+                  {{'blog.page-blog.blog1.p4-1' | translate}}<br />
+                  {{'blog.page-blog.blog1.p4-2' | translate}}<br />
+                  {{'blog.page-blog.blog1.p4-3' | translate}}<br />
+                  {{'blog.page-blog.blog1.p4-4' | translate}}<br />
+                  {{'blog.page-blog.blog1.p4-5' | translate}}
+                  <br /><br />
+                  {{'blog.page-blog.blog1.p4-6' | translate}}
+                </p>
+              </div>
+              <app-more-blogs></app-more-blogs>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

@@ -1,0 +1,42 @@
+<div id="up"></div>
+<header  id="header" class="container-fluid header">
+    <div class="row">
+      <div class="col-6 col-lg-3 header-section-1">
+        <a routerLink="/home" href="#"><img src="../../../assets/img/logo.svg" alt="Vi--Ain"></a>
+      </div>
+      <div class="col-6 col-lg-6 px-0 header-section-2">
+        <div class="d-flex justify-content-end menu-icon">
+          <img  (click)="menu()"  class="menu-open" src="../../../assets/img/menu-open.png" alt="">
+        </div>
+        <div class="menu-m ">
+        <ul class="d-flex flex-column flex-lg-row justify-content-between text-center px-0">
+          <a routerLink="/home" href="#">
+            <li routerLinkActive="page-active" class="">{{'headerhome' | translate}}</li>
+          </a>
+          <a routerLink="/mint" href="#">
+            <li routerLinkActive="page-active"  class="">{{'headermint' | translate}}</li>
+          </a>
+          <a href="#" routerLink="/services">
+            <li routerLinkActive="page-active">{{'headerservices' | translate}}</li>
+          </a>
+          <a routerLink="/portfolio" href="#">
+            <li routerLinkActive="page-active">{{'headerPortafolio' | translate}}</li>
+          </a>
+          <a href="#" routerLink="/team">
+            <li routerLinkActive="page-active">{{'headerEquipo' | translate}}</li>
+          </a>
+          <a href="#" routerLink="/blogs">
+            <li routerLinkActive="page-active">{{'headerBlog' | translate}}</li>
+          </a>
+        </ul>
+        <div class="col-12 col-lg-3 d-flex d-lg-none justify-content-center header-section-3">
+          <app-line-gradient routerLink="/contact-us" urlGradient="#" lineTitle="{{'contact' | translate}}"></app-line-gradient>
+        </div>
+      </div>
+    </div>
+      <div class="col-12 col-lg-3 d-none d-lg-flex justify-content-end header-section-3">
+        <app-line-gradient routerLink="/contact-us"  urlGradient="#" lineTitle="{{'contact' | translate}}"></app-line-gradient>
+      </div>
+
+    </div>
+</header>

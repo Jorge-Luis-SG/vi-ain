@@ -1,0 +1,101 @@
+@import "../../../styles.scss";
+
+
+.home-section-5 {
+  &-box1 {
+    img {
+      max-width: 300px;
+      max-height: 55px;
+      height: 100%;
+    }
+    p {
+      max-width: 300px;
+      font-size: 1.1rem;
+      margin-top: 3.5rem;
+      margin-bottom: 2.5rem;
+    }
+    a {
+      max-width: 200px;
+      width: 100%;
+      border-radius: 0.5rem;
+      @extend %btn1;
+    }
+  }
+  &-box2 {
+    max-width: 521px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(104px, auto);
+    grid-gap: 20px;
+    img {
+      max-width: 240px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    &-box1 {
+      img {
+        max-width: 200px;
+        max-height: 40px;
+      }
+    }
+    &-box2 {
+      margin-top: 3rem;
+      grid-auto-rows: minmax(75px, auto);
+      img {
+        width: 90%;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &-box2 {
+      grid-auto-rows: minmax(75px, auto);
+    }
+  }
+}
+
+
+.portfolio-item{
+  max-height: 350px;
+  max-width: 350px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: all .5s;
+  &:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+  }
+  img{
+    width: 46%;
+  }
+  &:first-child{
+    grid-row: 1/4;
+  }
+  &:nth-child(2){
+    grid-row: 4/6;
+    img{
+      width: 38%;
+    }
+  }
+  &:nth-child(3){
+    grid-column: 2;
+    grid-row: 1/3;
+    img{
+      width: 38%;
+    }
+  }
+  &:last-child{
+    grid-column: 2;
+    grid-row: 3/6;
+    img{
+        width: 70%;
+    }
+  }
+
+}

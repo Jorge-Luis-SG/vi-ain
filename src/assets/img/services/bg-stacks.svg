@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="299.634" height="346.136" viewBox="0 0 299.634 346.136">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.067" x2="0.5" y2="1.692" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b080f6"/>
+      <stop offset="0.498" stop-color="#623eb4"/>
+      <stop offset="1" stop-color="#50468c"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectángulo_35" data-name="Rectángulo 35" width="299.634" height="346.136" rx="14.146" fill="url(#linear-gradient)"/>
+</svg>

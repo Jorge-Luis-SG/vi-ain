@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "vi-ain",
+    "viAin": "vi-ain-b16c5"
+  },
+  "targets": {},
+  "etags": {}
+}

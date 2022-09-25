@@ -1,0 +1,96 @@
+@import "../../../../styles.scss";
+
+.stack-slider {
+  .swiper-slide {
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 160px;
+      height: 170px;
+      margin: 0 auto;
+      background-image: url(../../../../assets/img/services/bg-stacks.svg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 0.8rem;
+      transition: all 0.2s;
+      filter: opacity(0.5);
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
+      span {
+        font-size: 1rem;
+        max-width: 115px;
+        text-align: center;
+        margin: 1rem auto 0;
+        @extend %gbook;
+      }
+    }
+  }
+  .swiper-button-prev {
+  }
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    & > div {
+      max-width: 190px;
+      height: 200px;
+      filter: opacity(0.75);
+      transition: all 0.05s;
+
+      img {
+        width: 65px;
+        height: 65px;
+      }
+      span {
+        font-size: 1.1rem;
+        max-width: 130px;
+      }
+    }
+  }
+  .swiper-slide-active {
+    div {
+      filter: opacity(1);
+      max-width: 225px;
+      height: 240px;
+      transition: all 0.05s;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+      span {
+        font-size: 1.2rem;
+        max-width: 140px;
+      }
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-image: url(../../../../assets/img/arrow-r.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 26px;
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    padding: 0.65rem;
+    border-radius: 50%;
+    background-color: #623eb425;
+  }
+  .swiper-button-prev{
+    transform: rotateZ(180deg);
+    &::after{
+      content: none;
+    }
+    }
+    .swiper-button-next{
+    &::after{
+      content: none;
+    }
+    }
+}

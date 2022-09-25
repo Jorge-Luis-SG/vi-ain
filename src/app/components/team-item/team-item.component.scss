@@ -1,0 +1,47 @@
+@import "../../../styles.scss";
+
+
+img{
+  transform: translate(-2.2rem, 1.2rem);
+  width: 300px;
+  height: 350px;
+  object-fit: contain;
+  filter: grayscale(1);
+}
+.item{
+  max-width: 250px;
+  width: 90%;
+  max-height: 290px;
+  position: relative;
+  overflow: hidden;
+  border-radius: .4rem;
+  @extend %bg1;
+  @media screen and (max-width: 992px) {
+    margin: 1rem 0;
+  }
+}
+.item-dates{
+  background-image: url(../../../assets/img/mint/bg-team-shadow.png);
+  background-size: cover;
+  background-position-y: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  padding: 3.5rem 0 1.3rem 1rem;
+  a{
+    @extend %gbold;
+  }
+  h6{
+    margin: .3rem 0 .2rem 0;
+    text-transform: capitalize;
+    @extend %gbook;
+  }
+  span{
+    color: $color1;
+    font-size: .75rem;
+    text-transform: capitalize;
+    @extend %gbook;
+
+  }
+}

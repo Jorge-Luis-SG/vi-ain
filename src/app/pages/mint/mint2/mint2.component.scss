@@ -1,0 +1,167 @@
+@import "../../../../styles.scss";
+
+%bg-mint{
+  background-color: #ffffff40;
+  max-width: 550px;
+  margin: 0 auto;
+  border-radius: 0.7rem;
+  padding: 2rem;
+}
+.langeClassSwitch{
+  bottom: 4rem;
+}
+
+.mint-nft{
+  background-image: url(../../../../assets/img/portfolio/bg-banner.png);
+  background-size: cover;
+  min-height: calc(100vh - 223px);
+  &-bg{
+    background-image: url(../../../../assets/img/portfolio/aros.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 88%;
+    @media screen and (max-width:1760px){
+      background-position: 100%;
+    }
+    @media screen and (max-width:992px){
+      background-position-x: center;
+      background-position-y: 90%;
+      background-size: 800px;
+    }
+
+  }
+  &-bg2{
+    padding: 3rem 2rem 6rem;
+    margin: 0 auto;
+    @extend %maxWidth;
+    @media screen and (max-width:576px){
+      padding: 3rem 1rem 6rem;
+    }
+  }
+  &-box1-a{
+    @extend %bg-mint;
+    &-div1{
+      h4{
+        border-right: 2px solid #ffffff;
+        padding-right: 1.5rem;
+        @extend %titleh4;
+
+      }
+      p{
+        margin-left: 1.5rem;
+        max-width: 110px;
+        @extend %gbook;
+      }
+    }
+    &-div2{
+      width: 100%;
+      background-color: #ffffff40;
+      max-width: 400px;
+      margin: 2rem auto;
+      padding: 0.7rem 0;
+      border-radius: 2rem;
+      h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        @extend %gbook;
+      }
+    }
+    &-div3{
+
+      & > div{
+        max-width: 150px;
+        width: 100%;
+
+        span{
+          position: absolute;
+          top: -0.6rem;
+          font-size: 2.5rem;
+          cursor: pointer;
+        }
+        .restar{
+          left: 0.7rem;
+        }
+        .sumar{
+          right: .7rem;
+        }
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        input{
+          border: 1px solid #ffffff;
+          border-radius: 1.5rem;
+          background: transparent;
+          padding: 0.4rem;
+          width: 100%;
+          text-align: center;
+          font-size: 1.5rem;
+        }
+      }
+
+      a{
+        background-color: black;
+        max-width: 200px;
+        width: 100%;
+        @extend %btn1;
+      }
+    }
+
+  }
+  &-box1-b{
+    margin: 2rem auto 0;
+    @extend %bg-mint;
+    .box1{
+      border-right: 1px solid #ffffff;
+      padding-right: 2rem;
+      .img{
+        background-color: #ffffff40;
+        max-width: 100px;
+        min-width: 90px;
+        border-radius: 0.7rem;
+        img{
+          width: 100%;
+        }
+      }
+      h6{
+            font-size: 1.4rem;
+      }
+    }
+    .box2{
+      width: 100%;
+      max-width: 200px;
+      text-align: center;
+    }
+    @media screen and (max-width:576px){
+      .box1{
+        border-right: 0;
+        border-bottom: 1px solid #ffffff;
+        padding-right: 0;
+        padding-bottom: 2rem;
+        margin: 0 auto;
+        h6{
+              font-size: 1.2rem;
+        }
+      }
+      .box2{
+        padding-top: 2rem;
+        height: 150px;
+        margin: 0 auto;
+      }
+    }
+  }
+  &-box2{
+    height: 350px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    @media screen and (max-width:992px){
+        margin: 5rem auto 0;
+
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102.256" height="102.256" viewBox="0 0 102.256 102.256">
+  <g id="Grupo_147" data-name="Grupo 147" transform="translate(0.5 0.5)" opacity="0.6">
+    <g id="Grupo_145" data-name="Grupo 145">
+      <circle id="Elipse_9" data-name="Elipse 9" cx="50.628" cy="50.628" r="50.628" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Grupo_146" data-name="Grupo 146" transform="translate(10.445 9.762)">
+      <circle id="Elipse_10" data-name="Elipse 10" cx="5.033" cy="5.033" r="5.033" transform="translate(35.149 35.833)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Elipse_11" data-name="Elipse 11" cx="40.183" cy="12.813" rx="40.183" ry="12.813" transform="translate(0 28.054)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Elipse_12" data-name="Elipse 12" cx="12.813" cy="40.183" rx="12.813" ry="40.183" transform="translate(8.023 13.58) rotate(-32.001)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Elipse_13" data-name="Elipse 13" cx="40.183" cy="12.813" rx="40.183" ry="12.813" transform="translate(8.023 68.153) rotate(-57.999)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

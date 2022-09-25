@@ -1,0 +1,39 @@
+@import "../../../../styles.scss";
+@import "../blogs.component.scss";
+a {
+  color: #ffffff;
+}
+.post {
+  max-width: 465px;
+  border-radius: 1rem;
+  overflow: hidden;
+  &-banner {
+    height: 180px;
+    width: 100%;
+    background-color: #a789ce;
+    overflow: hidden;
+    img {
+      max-width: 517px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  &-main {
+    padding: 1.6rem 2rem;
+    background-color: #a789ce10;
+  }
+  &-btn {
+    a {
+      @extend %btnBlog;
+    }
+  }
+  &-desc {
+    p {
+      color: $color7;
+    }
+    span {
+      font-size: 0.75rem;
+      color: $color7;
+    }
+  }
+}

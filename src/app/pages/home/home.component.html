@@ -1,0 +1,143 @@
+<div class="home">
+    <div class="home-bg">
+  <app-header></app-header>
+  <main>
+    <div class="container-fluid home-section">
+      <div class="row">
+        <div class="col-12 col-md-6 home-section-1-box1">
+          <div class="d-flex flex-column justify-content-center justify-content-md-start">
+            <h6 class="home-section-1-box1-h6 text-center text-md-start ">{{'home.section1.h6' | translate}}</h6>
+            <h2 class="home-section-1-box1-h2 text-center text-md-start ">We Create <br class="d-none d-md-block">The Future</h2>
+            <a class="home-section-1-box1-btn btn text-center text-md-start " href="#">{{'home.section1.btn' | translate}}</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end home-section-1-box2">
+            <div class="d-flex flex-column align-items-center  home-section-1-box2-desc">
+              <img src="../../../assets/img/plus.svg" alt="">
+              <p>{{'home.section1.parrafo' | translate}}</p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between home-bar-low">
+            <div class="d-flex">
+
+            </div>
+            <app-lang></app-lang>
+          </div>
+      </div>
+      <div class="row home-section-2">
+        <div class="col-12 col-lg-6 d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-start  home-section-2-box1">
+          <img class="mb-4 mb-sm-0" src="../../../assets/img/email.svg" alt="">
+          <div class="ms-4 home-section-2-box1-container">
+            <h4>{{'home.section2.h41-box1' | translate}}<br class="d-none d-lg-block">
+              {{'home.section2.h42-box1' | translate}}</h4>
+            <p>{{'home.section2.parrafo-box1' | translate}}</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0 position-relative d-flex align-items-center justify-content-end home-section-2-box2">
+          <!-- <div class="send-mail"></div> -->
+          <input class="home-section-2-box2-email" type="email" name="" id="" required placeholder=" {{'home.section2.btn-placeholder-box2' | translate}}">
+          <button class="position-absolute home-section-2-box2-btn" >{{'home.section2.btn-box2' | translate}}</button>
+        </div>
+      </div>
+      </div>
+      <div class="col-12 home-section-2-box3">
+        <div class="div d-flex flex-column justify-content-center align-items-center">
+          <h4 class="home-section-2-box3-h4 text-center">{{'home.section2.h4-box3' | translate}}</h4>
+          <p class="home-section-2-box3-p text-center">{{'home.section2.parrafo-box3' | translate}}
+          </p>
+
+          <button class="btn home-section-2-box3-btn" (click)="link('team')"  routerLink="/team">{{'readmore' | translate}}</button>
+        </div>
+    </div>
+    <div class="row m-0 home-section-3">
+      <div class="col-12 col-lg-6 m-0 p-0 d-flex flex-column justify-content-center align-items-center home-section-3-box1">
+        <div class="d-flex home-section-3-box1-div justify-content-center align-items-center">
+          <div class="position-relative home-section-3-box1-container">
+            <h4 class="home-section-3-box1-h4">{{'home.section3.h4' | translate}}</h4>
+            <p class="home-section-3-box1-p">{{'home.section3.parrafo' | translate}}
+             </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="btn home-section-3-box1-btn position-absolute" (click)="link('mint')" routerLink="/mint" >Mint</button>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-6 p-0">
+        <div class="home-section-3-box2">
+          <app-mistery-box></app-mistery-box>
+        </div>
+      </div>
+    </div>
+    <div class="bg-section5">
+    <div class="row m-0 d-flex justify-content-center align-items-center position-relative home-section-4">
+      <h4 class="home-section-4-title text-center">{{'home.section4.h4' | translate}}</h4>
+      <p class=" text-center">{{'home.section4.parrafo' | translate}}</p>
+        <div class="d-flex justify-content-start position-absolute home-section-4-gradient">
+          <app-line-gradient routerLink="/services" urlGradient="#" lineTitle="{{'readmore' | translate}}"></app-line-gradient>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-6 col-xl-4  mt-5 mt-xl-0 d-flex justify-content-center">
+            <app-card title1="dev" title2="{{'home.section4.card1-title' | translate}}" hover="{{'home.section4.card1-hover1' | translate}}" hover2="{{'home.section4.card1-hover2' | translate}}"></app-card>
+
+          </div>
+          <div class="col-12 col-lg-6 col-xl-4  mt-5 mt-xl-0 d-flex justify-content-center">
+            <app-card title1="meta" title2="{{'home.section4.card2-title' | translate}}" hover="{{'home.section4.card2-hover1' | translate}}" hover2="
+            {{'home.section4.card2-hover2' | translate}}
+            "></app-card>
+
+          </div>
+          <div class="col-12 col-lg-6 mt-5 mt-xl-0 col-xl-4  d-flex justify-content-center">
+            <app-card title1="nft" title2="{{'home.section4.card3-title' | translate}}" hover="{{'home.section4.card3-hover1' | translate}}" hover2="
+            {{'home.section4.card3-hover2' | translate}}"></app-card>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="row home-section-5">
+      <div class="d-flex flex-column flex-lg-row align-content-center justify-content-center position-relative w-100 home-section-5-top ">
+        <div class="position-absolute l-0 home-section-5-lineGradient  ">
+          <app-line-gradient (click)="link('portfolio')" routerLink="/portfolio" urlGradient="#" lineTitle="{{'readmore' | translate}}"></app-line-gradient>
+        </div>
+        <h4 class="text-center">{{'home.section5.h4' | translate}}</h4>
+        <img (click)="link('portfolio')" routerLink="/portfolio" class="position-absolute r-0" src="../../../assets/img/arrow-r.svg" alt="">
+      </div>
+      <app-portolio-item></app-portolio-item>
+    </div>
+    </div>
+
+
+    <div class="w-100">
+      <app-partners></app-partners>
+    </div>
+    <div class="home-section-6-bg">
+  <div class="mx-0 home-section-6">
+    <div class="row home-section-6-container position-relative">
+      <div class="d-flex justify-content-end position-absolute home-section-6-gradient">
+        <app-line-gradient routerLink="/contact-us" urlGradient="#" lineTitle="{{'contact' | translate}}"></app-line-gradient>
+      </div>
+    <div class="col-12 p-0">
+      <app-slider-team></app-slider-team>
+    </div>
+
+
+    <div class="col-12 d-flex justify-content-center home-section-6-box3">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+          <h5 class="text-center  my-0 text-md-start">{{'home.section6.h51' | translate}}<br>
+            {{'home.section6.h52' | translate}}</h5>
+          <a (click)="link('contact-us')" routerLink="/contact-us" class="btn  my-0">{{'home.section6.btn' | translate}}</a>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+  </main>
+
+</div>
+</div>
+

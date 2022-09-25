@@ -1,0 +1,178 @@
+<div class="services">
+  <div class="services-bg">
+    <div class="services-bg2">
+      <div class="services-bg3">
+        <app-header></app-header>
+        <div class="services-section1 row align-items-center position-relative">
+          <div
+            class="col-12 col-lg-5 services-section1-box1 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start"
+          >
+            <h2>{{ "services.page.title" | translate }}</h2>
+            <a routerLink="/contact-us" href="#" class="btn mt-4">{{
+              "services.page.btn" | translate
+            }}</a>
+          </div>
+          <div
+            class="col-12 col-lg-7 services-section1-box2 d-flex justify-content-center justify-content-lg-end"
+          >
+            <img src="../../../assets/img/services/services.png" alt="" />
+          </div>
+        </div>
+        <div class="services-section2 row align-items-center">
+          <div class="col-12 services-section2-box1 text-center">
+            <h4>{{ "services.page.title2" | translate }}</h4>
+          </div>
+          <div class="col-12 services-section2-box2">
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/web-development.svg"
+                alt="Web Development"
+              />
+              <span>{{ "stack.web" | translate }}</span>
+            </div>
+
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/movil.svg"
+                alt="Desarrollo Movil"
+              />
+              <span
+                ><span>{{ "stack.movil" | translate }}</span
+                >l</span
+              >
+            </div>
+
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/design.svg"
+                alt="Diseño de Producto"
+              />
+              <span
+                ><span>{{ "stack.design" | translate }}</span></span
+              >
+            </div>
+
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/mvp.svg"
+                alt="Desarrollo MVP"
+              />
+              <span
+                ><span>{{ "stack.mvp" | translate }}</span></span
+              >
+            </div>
+
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/code.svg"
+                alt="Desarrollo Blockchain"
+              />
+              <span
+                ><span>{{ "stack.blockchain" | translate }}</span></span
+              >
+            </div>
+
+            <div class="services-section2-box2-item">
+              <img
+                src="../../../assets/img/icons/meta.svg"
+                alt="Desarrollo Meta"
+              />
+              <span
+                ><span>{{ "stack.meta" | translate }}</span></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 services-section3">
+      <h4 class="text-center">{{ "services.page.title3" | translate }}</h4>
+      <div class="services-section3-box">
+        <app-slider-stacks></app-slider-stacks>
+      </div>
+    </div>
+  </div>
+
+  <div class="services-section4">
+    <div class="services-section4-top position-relative">
+      <!-- <img src="../../../assets/img/arrow-r.svg" alt="Left"> -->
+      <h4 class="text-center">{{ "services.page.title4" | translate }}</h4>
+      <!-- <img src="../../../assets/img/arrow-r.svg" alt="Rigth"> -->
+    </div>
+    <div class="services-section4-mid">
+      <div class="services-section4-mid-item">
+        <img src="../../../assets/img/icons/car.svg" alt="Desarrollo Movil" />
+        <span>{{ "services.page.card1" | translate }}</span>
+        <p>
+          - Proporcionamos acercamiento y asesoria personalizada a plataformas
+          de venta e intercambio de productos y activos, ecommerce, marketplace,
+          entre otros, cada uno a la medida de las necesidades de cada cliente
+        </p>
+      </div>
+
+      <div class="services-section4-mid-item">
+        <img
+          src="../../../assets/img/icons/payment.svg"
+          alt="Desarrollo Movil"
+        />
+        <span>{{ "services.page.card2" | translate }}</span>
+        <p>
+          - Desarrollamos e integramos pasarelas de pagos para diferentes
+          sistemas centralizados y descentralizados, integrando protocolos
+          existentes o desarrollandolos de cero según la demanda.
+        </p>
+      </div>
+
+      <div class="services-section4-mid-item">
+        <img
+          src="../../../assets/img/icons/graphic.svg"
+          alt="Desarrollo Movil"
+        />
+        <span>{{ "services.page.card3" | translate }}</span>
+        <p>
+          - Asesoramos y acompañamos todos los procesos de creación y desarrollo
+          de proyectos y compañías emergentes en el mundo financiero, brindando
+          las herramientas necesarias en modelos de negocio, programación,
+          proyecciones ya alianzas estratégicas.
+        </p>
+      </div>
+
+      <div class="services-section4-mid-item">
+        <img src="../../../assets/img/icons/meta2.svg" alt="Desarrollo Movil" />
+        <span>{{ "services.page.card4" | translate }}</span>
+        <p>
+          - La construcción de nuevos mundos y ecosistemas digitales con la guía
+          y el enfoque que cada modelo d negocio requiere para poder
+          introducirse en estas nuevas tecnologías, todo el proceso y desarrollo
+          es ejecutado por nuestro equipo de profesionales, implementando
+          diferentes métodos de moderación y programación.
+        </p>
+      </div>
+    </div>
+    <div class="services-section4-box2 row">
+      <h4 class="text-center">{{ "services.page.title5" | translate }}</h4>
+      <div class="col-12 services-section4-box2-item">
+        <div class="services-section4-box2-item-div">
+          <h5>
+            {{ "services.page.title6" | translate }}
+          </h5>
+          <p>{{ "services.page.p1" | translate }}</p>
+        </div>
+        <div class="services-section4-box2-item-div">
+          <h5>
+            {{ "services.page.title7" | translate }}
+          </h5>
+          <p>{{ "services.page.p2" | translate }}</p>
+        </div>
+        <div class="services-section4-box2-item-div">
+          <h5>
+            {{ "services.page.title8" | translate }}
+          </h5>
+          <p>{{ "services.page.p3" | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-partners></app-partners>

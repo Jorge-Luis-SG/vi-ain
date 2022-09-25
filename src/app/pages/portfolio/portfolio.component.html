@@ -1,0 +1,109 @@
+<div class="portfolio">
+  <div class="portfolio-banner-bg">
+  <div class="portfolio-banner-bg2">
+  <app-header></app-header>
+  <div class="row portfolio-banner">
+    <div class="portfolio-banner-box1 col-12 col-lg-6 d-flex align-items-center justify-content-center">
+     <div>
+      <h2>{{'portfolio.title1' | translate}}<br>
+        {{'portfolio.title2' | translate}}<br>
+        {{'portfolio.title3' | translate}} <img class="img-title" src="../../../assets/img/portfolio/{{proyect}}" routerLink="/portfolio/{{page}}" alt=""/></h2>
+        <p>{{'portfolio.parrafo' | translate}}</p>
+        <a href="#" routerLink="/contact-us">{{'home.section6.btn' | translate}}</a>
+     </div>
+    </div>
+    <div class="portfolio-banner-box2 col-12 col-lg-6 d-flex justify-content-center align-items-center position-relative">
+      <div class="position-absolute">
+        <app-mistery-box></app-mistery-box>
+      </div>
+        <a routerLink="/mint-nft" href="#">{{'portfolio.btn2' | translate}}</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+  <!-- SECCION 1 -->
+  <div class="row portfolio-seccion1">
+    <div class="portfolio-seccion1-top position-relative">
+      <!-- <div class="portfolio-seccion1-top-box1 position-absolute">
+        <app-line-gradient lineTitle="{{'portfolio.verProyectos' | translate}}"></app-line-gradient>
+      </div> -->
+      <h4 class="text-center">PROYECTOS RECIENTES</h4>
+      <!-- <div class="portfolio-seccion1-top-box2 position-absolute">
+        <img src="../../../assets/img/arrow-l2.svg" alt="Left">
+        <img src="../../../assets/img/arrow-r2.svg" alt="Right">
+      </div> -->
+    </div>
+    <div class="col-12 portfolio-seccion1-items">
+        <div class="item-boxs">
+          <div>
+            <img class="img-card" src="../../../assets/img/portfolio/disruptive-logo2.png" alt="Disruptive Land">
+             <div class="hover">
+                <img src="../../../assets/img/portfolio/disruptive-logo2.png" alt="Disruptive Land">
+              <p>
+                {{'portfolio.disruptive' | translate}}
+              </p>
+              <a class="website" href="#">{{'website' | translate}}</a>
+              <a class="ver-mas" href="#">{{'showmore' | translate}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="item-boxs">
+          <div>
+            <img class="img-card" src="../../../assets/img/portfolio/pandarian.svg" alt="PANDARIAN"/>
+            <div class="hover">
+              <img  src="../../../assets/img/portfolio/pandarian.svg" alt="PANDARIAN"/>
+            <p>
+              {{'portfolio.panda' | translate}}
+            </p>
+            <a class="website" href="#">{{'website' | translate}}</a>
+            <a class="ver-mas" href="#">{{'showmore' | translate}}</a>
+          </div>
+          </div>
+        </div>
+        <div class="item-boxs">
+          <div>
+            <img class="img-card" src="../../../assets/img/portfolio/nftix-logo2.png" alt="NFTIX">
+            <div class="hover">
+              <img src="../../../assets/img/portfolio/nftix-logo2.png" alt="NFTIX">
+            <p>
+              {{'portfolio.nftix' | translate}}
+            </p>
+            <a class="website" href="#">{{'website' | translate}}</a>
+            <a class="ver-mas" href="#">{{'showmore' | translate}}
+            </a>
+          </div>
+          </div>
+        </div>
+        <div class="item-boxs">
+          <div>
+            <img class="img-card" src="../../../assets/img/portfolio/mest-logo2.png" alt="Mest">
+            <div class="hover">
+              <img src="../../../assets/img/portfolio/mest-logo2.png" alt="Mest">
+            <p>
+              {{'portfolio.mest' | translate}}
+            </p>
+            <a class="website" href="#">{{'website' | translate}}</a>
+            <a class="ver-mas" href="#">{{'showmore' | translate}}</a>
+          </div>
+          </div>
+        </div>
+        <div class="item-boxs">
+          <div>
+          </div>
+        </div>
+        <div class="item-boxs">
+          <div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class="w-100">
+  <app-partners></app-partners>
+</div>

@@ -1,0 +1,297 @@
+@import "../../../styles.scss";
+
+h2 {
+  @extend %titleh2;
+}
+.team {
+  @extend %bg2;
+  &-section1 {
+    background-image: url(../../../assets/img/aros.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    min-height: 650px;
+    overflow: hidden;
+    &-box1 {
+      transform: translateY(3rem);
+      z-index: 9;
+      h2 {
+        max-width: 405px;
+        margin: 0 auto;
+        z-index: 20;
+      }
+      p {
+        max-width: 400px;
+        margin: 1rem 0 2rem;
+        @extend %gbook;
+        z-index: 20;
+      }
+      a {
+        @extend %btn1;
+        z-index: 20;
+      }
+    }
+
+    &-box2 {
+      margin-bottom: 0rem;
+      z-index: 25;
+      max-height: 180px;
+      position: relative;
+      & > div {
+        background-color: #00000050;
+        max-width: 749px;
+        width: 100%;
+        padding: 1.5rem 6rem;
+        backdrop-filter: blur(12px) contrast(0.8) brightness(2);
+        border-radius: 1rem 1rem 0 0;
+        h5 {
+          font-size: 1.2rem;
+        }
+        a {
+          margin-left: 2rem;
+          @extend %btn1;
+        }
+      }
+    }
+    .team-directors {
+      img {
+        max-width: 450px;
+        width: 100%;
+        position: absolute;
+        top: 4rem;
+        &:hover {
+          transition: all 0.4s;
+          transform: scale(1.065);
+          animation: directors 1s infinite alternate-reverse;
+        }
+        &:first-child {
+          left: -6rem;
+          z-index: 2;
+        }
+        &:nth-child(2) {
+          left: 10rem;
+        }
+        &:nth-child(3) {
+          right: 10rem;
+          z-index: 2;
+        }
+        &:last-child {
+          right: -.7rem;
+        }
+        @media screen and (max-width: 1150px) {
+          max-width: 350px;
+        }
+      }
+    }
+    @media screen and (max-width: 992px) {
+      &-box2 {
+        & > div {
+          padding: .7rem 0rem;
+          h5 {
+            font-size: 1.2rem;
+          }
+          a {
+            margin-top: 1rem !important;
+            padding: 0.45rem 2.15rem;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 900px) {
+      min-height: 445px;
+      &-box1 {
+        transform: translateY(1rem);
+
+      }
+      .team-directors {
+        img {
+          max-width: 200px;
+          top: 7rem;
+          &:first-child {
+            left: -2rem;
+          }
+          &:nth-child(2) {
+            left: 8rem;
+          }
+          &:nth-child(3) {
+            right: 7rem;
+          }
+      }
+     }
+    }
+    @media screen and (max-width: 768px) {
+      &-box1 {
+        h2{
+          max-width: 303px;
+        }
+     }
+    }
+    @media screen and (max-width: 530px) {
+      &-box2 {
+        & > div {
+          h5 {
+            font-size: 1.1rem;
+          }
+          a {
+            margin-top: 1rem !important;
+            padding: 0.45rem 2.15rem;
+          }
+        }
+      }
+      .team-directors {
+        img {
+          max-width: 170px;
+          top: 10rem;
+          &:first-child {
+            left: -2rem;
+          }
+          &:nth-child(2) {
+            left: 3rem;
+          }
+          &:nth-child(3) {
+            right: 3rem;
+          }
+      }
+     }
+    }
+    @media screen and (max-width: 400px) {
+      .team-directors {
+        img {
+          max-width: 140px;
+          top: 10rem;
+
+      }
+     }
+    }
+}
+
+  &-section2 {
+    background-image: url(../../../assets/img/team/bg-team2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    &-bg {
+      background-image: url(../../../assets/img/letters.png);
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 11rem;
+    }
+    &-box1 {
+      & > div {
+        background-color: #00000020;
+        max-width: 749px;
+        margin: 0 auto;
+        width: 100%;
+        min-height: 350px;
+        padding: 1.5rem 2rem;
+        backdrop-filter: blur(12px) contrast(0.8) brightness(1.2);
+        border-radius: 0 0 1rem 1rem;
+        p {
+          margin: 2rem 0 1rem;
+        }
+      }
+    }
+    &-box2 {
+      h2 {
+        margin-top: 2rem;
+      }
+      p {
+        max-width: 485px;
+        margin: 1.5rem 0 4rem;
+      }
+    }
+  }
+  &-section3 {
+    background-image: url(../../../assets/img/mint/bg-black2.png);
+    background-size: cover;
+    &-box1 {
+      margin-top: -8.2rem;
+    }
+    &-box3 {
+      position: relative;
+      padding-bottom: 13rem;
+      &-bg {
+        height: 460px;
+        position: absolute;
+        width: 60%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          28deg,
+          rgba(0, 0, 0, 0) 11%,
+          rgba(17, 17, 17, 1) 53%
+        );
+      }
+      &-items {
+        transform: translateY(5rem);
+        position: relative;
+        z-index: 9;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+        grid-gap: 1rem;
+        & > div {
+          background-color: #141414;
+          max-width: 265px;
+          border-radius: 0.7rem;
+          padding: 4rem 1.7rem;
+          box-shadow: -3px 3px 4px 0px $color1;
+          transition: all 0.35s;
+          cursor: pointer;
+          &:hover {
+            transform: translateY(-2rem);
+          }
+          h6 {
+            font-size: 1.2rem;
+            max-width: 150px;
+            height: 50px;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 992px) {
+      &-box3 {
+        padding-bottom: 13rem;
+        h2{
+          margin-bottom: -2rem;
+        }
+        &-bg {
+          height: 560px;
+          width: 70%;
+          top: 10.3rem;
+        }
+        &-items {
+          grid-template-columns: repeat(2, auto);
+          grid-gap: 3rem 1rem;
+        }
+      }
+    }
+    @media screen and (max-width: 600px) {
+      &-box1 {
+        margin-top: -12.2rem;
+      }
+      &-box3 {
+        padding-bottom: 13rem;
+        h2{
+          margin-bottom: -2rem;
+        }
+        &-bg {
+          height: 560px;
+          width: 80%;
+        }
+        &-items {
+          grid-template-columns: repeat(1, auto);
+          grid-gap: 3rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes directors {
+  0% {
+    filter: drop-shadow(2px 4px 6px $color3) brightness(1.12);
+  }
+  100% {
+    filter: drop-shadow(2px 4px 6px $color1) brightness(1.12);
+  }
+}

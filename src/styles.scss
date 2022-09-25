@@ -1,0 +1,234 @@
+/* You can add global styles to this file, and also import other style files */
+
+// COLORES GLOBALES
+$color1: #9d6eff;
+$color2: #0d0919;
+$color3: #d2bcff;
+$color4: #cacaca;
+$color5: #111111;
+$color6: #c9c9c9;
+$color7: #474747;
+$color8: #a789ce;
+
+$borde: #707070;
+$borde2: #c2a5ef;
+// FIN COLORES GLOBALES
+
+* {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+p {
+  color: $color4;
+  margin: 0;
+  font-size: 0.87rem;
+}
+
+.row {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.langeClassSwitch{
+  right: 5rem;
+  z-index: 9999;
+  @media screen and (max-width:768px){
+    right: 1rem;
+    ;
+  }
+}
+
+//Estilos preparados
+
+%maxWidth {
+  max-width: 1750px !important;
+  margin: 0 auto !important;
+  width: 95%;
+}
+
+%btn1 {
+  padding: 0.75rem 2.15rem;
+  border-radius: 2rem;
+  background-color: $color1;
+}
+%btn2 {
+  padding: 0.55rem 2.15rem;
+  border-radius: 2rem;
+  background-color: $color1;
+}
+%titleh4 {
+  font-size: 1.85rem;
+  font-family: "Gotham";
+  font-weight: bold;
+  @media screen and (max-width: 768px) {
+    font-size: 1.75rem;
+  }
+}
+%titleh2 {
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 2.2rem;
+  }
+}
+%bg1 {
+  background: rgb(175, 128, 245);
+  background: linear-gradient(
+    284deg,
+    rgba(175, 128, 245, 1) 0%,
+    rgba(98, 62, 179, 1) 70%,
+    rgba(80, 70, 139, 1) 100%
+  );
+}
+%bg2 {
+  background: rgb(46, 46, 46);
+  background: linear-gradient(
+    180deg,
+    rgba(46, 46, 46, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+%gbook {
+  font-family: "Gotham";
+  font-weight: 400;
+}
+%gblack {
+  font-family: "Gotham";
+  font-weight: 700;
+}
+%gbold {
+  font-family: "Gotham";
+  font-weight: bold;
+}
+%hnormal {
+  font-family: "Helvetica";
+  font-weight: normal;
+}
+
+
+// FUENTES
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Light.eot");
+  src: url("./assets/fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Light.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Light.woff") format("woff"),
+    url("./assets/fonts/Gotham-Light.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Light.svg#Gotham-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Book.eot");
+  src: url("./assets/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Book.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Book.woff") format("woff"),
+    url("./assets/fonts/Gotham-Book.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Book.svg#Gotham-Book") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Medium.eot");
+  src: url("./assets/fonts/Gotham-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Medium.woff") format("woff"),
+    url("./assets/fonts/Gotham-Medium.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Medium.svg#Gotham-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Bold.eot");
+  src: url("./assets/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Bold.woff") format("woff"),
+    url("./assets/fonts/Gotham-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Black.eot");
+  src: url("./assets/fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Black.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Black.woff") format("woff"),
+    url("./assets/fonts/Gotham-Black.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Black.svg#Gotham-Black") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica-Light.eot");
+  src: url("./assets/fonts/Helvetica-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Helvetica-Light.woff2") format("woff2"),
+    url("./assets/fonts/Helvetica-Light.woff") format("woff"),
+    url("./assets/fonts/Helvetica-Light.ttf") format("truetype"),
+    url("./assets/fonts/Helvetica-Light.svg#Helvetica-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica-Bold.eot");
+  src: url("./assets/fonts/Helvetica-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Helvetica-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Helvetica-Bold.woff") format("woff"),
+    url("./assets/fonts/Helvetica-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Helvetica-Bold.svg#Helvetica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica.eot");
+  src: url("./assets/fonts/Helvetica.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Helvetica.woff2") format("woff2"),
+    url("./assets/fonts/Helvetica.woff") format("woff"),
+    url("./assets/fonts/Helvetica.ttf") format("truetype"),
+    url("./assets/fonts/Helvetica.svg#Helvetica") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,52 @@
+<div class="mint-nft">
+  <div class="mint-nft-bg position-relative">
+    <app-header></app-header>
+    <div class="langeClassSwitch position-absolute">
+        <app-lang></app-lang>
+      </div>
+    <div class="mint-nft-bg2 row">
+      <div class="col-12 col-lg-6">
+        <div class="mint-nft-box1-a">
+          <div class="mint-nft-box1-a-div1 d-flex justify-content-center">
+            <h4>Vi-ain’s Mint</h4>
+            <p>Please Connect Your Wallet</p>
+          </div>
+          <div class="mint-nft-box1-a-div2">
+            <h6>How many do you want to mint?</h6>
+          </div>
+          <div
+            class="mint-nft-box1-a-div3 d-flex flex-column flex-sm-row align-items-center justify-content-sm-evenly"
+          >
+            <div class="position-relative mb-4 mb-sm-0">
+              <span class="restar" (click)="restar()">-</span>
+              <input type="number" [value]="valor" [(ngModel)]="valor" />
+              <span class="sumar" (click)="sumar()">+</span>
+            </div>
+            <a href="#" class="btn">Mint Now</a>
+          </div>
+        </div>
+        <div class="mint-nft-box1-b d-flex flex-column flex-sm-row justify-content-between">
+          <div class="box1 d-flex">
+            <div class="img">
+              <img
+                src="../../../../assets/img/mint/mistery-box-2.png"
+                alt="Mistery Box"/>
+            </div>
+            <div class="d-flex flex-column justify-content-center ms-4">
+              <h6>Vi-ain’s#...</h6>
+              <span>Rarity:????</span>
+            </div>
+          </div>
+          <div class="box2">
+            <span>Total</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 position-relative d-flex align-items-center">
+        <div class="mint-nft-box2">
+          <app-mistery-box></app-mistery-box>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

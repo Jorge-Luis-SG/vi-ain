@@ -1,0 +1,33 @@
+<div class="post">
+  <div class="post-banner d-flex justify-content-center" style="background-image: url(../../../../assets/img/blogs/lasted-{{bg}}.png);">
+    <img src="../../../../assets/img/blogs/{{img}}.png" alt="Go">
+  </div>
+  <div class="post-main">
+    <div class="post-btn">
+      <a class="btn d-none" href="#" *ngIf="btn1 === ''; else Elseoption" >{{btn1}}</a>
+      <ng-template #Elseoption>
+        <a class="btn d-block-inline" href="#">{{btn1}}</a>
+      </ng-template>
+
+      <a class="btn d-none" href="#" *ngIf="btn2 === ''; else Elseoption2">{{btn2}}</a>
+      <ng-template #Elseoption2>
+        <a class="btn d-block-inline" href="#">{{btn2}}</a>
+      </ng-template>
+      <a class="btn d-none" href="#" *ngIf="btn3 === ''; else Elseoption3">{{btn3}}</a>
+      <ng-template #Elseoption3>
+        <a class="btn d-block-inline" href="#">{{btn2}}</a>
+      </ng-template>
+      <a class="btn d-none" href="#" *ngIf="btn4 === ''; else Elseoption4">{{btn4}}</a>
+      <ng-template #Elseoption4>
+        <a class="btn d-block-inline" href="#">{{btn4}}</a>
+      </ng-template>
+    </div>
+    <div class="post-desc">
+      <h6>{{title}}</h6>
+      <p>
+       {{desc}}
+      </p>
+      <span>{{date}}</span>
+    </div>
+  </div>
+</div>
