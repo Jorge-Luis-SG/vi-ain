@@ -14,11 +14,7 @@ SwiperCore.use([Keyboard, Pagination, Navigation, Virtual]);
 })
 export class SliderTeamComponent implements OnInit, AfterViewInit {
 
-  @Input() cargo1: string ="";
-  @Input() cargo2: string ="";
-  @Input() name1: string ="";
-  @Input() name2: string ="";
-  @Input() desc: string ="";
+ 
 
 
   constructor() {}

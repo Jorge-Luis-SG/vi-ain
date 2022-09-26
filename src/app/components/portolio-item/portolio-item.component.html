@@ -2,22 +2,22 @@
   <div class="row home-section-5">
     <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center home-section-5-box1">
       <img src="../../../assets/img/portfolio/{{project}}.svg" alt="{{project}}">
-      <p class="text-center">{{desc}}
+      <p class="text-center">{{'portfolio.'+desc | translate}}
         </p>
         <a href="{{url}}" class="btn">Website</a>
     </div>
     <div class="col-12 col-lg-6 d-flex justify-content-center">
       <div class="home-section-5-box2">
-        <div (click)="proyect(mest, mestp, url)" style="background-image: url(../../../assets/img/portfolio/mest-bg.png);" class="portfolio-item" alt="Mest">
+        <div (click)="proyect(mest, 'mest', url)" style="background-image: url(../../../assets/img/portfolio/mest-bg.png);" class="portfolio-item" alt="Mest">
           <img src="../../../assets/img/portfolio/mest-logo.png" alt="">
         </div>
-        <div (click)="proyect(panda, pandap, url); " style="background-image: url(../../../assets/img/portfolio/pada-bg.png);" class="portfolio-item" alt="PANDARIAN">
+        <div (click)="proyect(panda, 'panda', url); " style="background-image: url(../../../assets/img/portfolio/pada-bg.png);" class="portfolio-item" alt="PANDARIAN">
           <img src="../../../assets/img/portfolio/panda-logo.svg" alt="">
         </div>
-        <div (click)="proyect(nftix, nftixp, url)" style="background-image: url(../../../assets/img/portfolio/nftix-bg.png);" class="portfolio-item" alt="NFTIX">
+        <div (click)="proyect(nftix, 'nftix', url)" style="background-image: url(../../../assets/img/portfolio/nftix-bg.png);" class="portfolio-item" alt="NFTIX">
           <img src="../../../assets/img/portfolio/nftix-logo.png" alt="">
         </div>
-        <div (click)="proyect(disrup, disrupp, url)" style="background-image: url(../../../assets/img/portfolio/disruptive-bg.png);" class="portfolio-item" alt="Disruptive land">
+        <div (click)="proyect(disrup, 'disruptive', url)" style="background-image: url(../../../assets/img/portfolio/disruptive-bg.png);" class="portfolio-item" alt="Disruptive land">
           <img src="../../../assets/img/portfolio/disruptive-land.svg" alt="">
 
         </div>

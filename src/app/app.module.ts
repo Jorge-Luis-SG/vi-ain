@@ -43,6 +43,7 @@ import { LangComponent } from './lang/lang.component';
 import { MestComponent } from './pages/portfolio/web/mest/mest.component';
 import { NftixComponent } from './pages/portfolio/web/nftix/nftix.component';
 import { PandarianComponent } from './pages/portfolio/web/pandarian/pandarian.component';
+import { ItemSliderTeamComponent } from './components/slider-team/item-slider-team/item-slider-team.component';
 
 
 @NgModule({
@@ -83,6 +84,7 @@ import { PandarianComponent } from './pages/portfolio/web/pandarian/pandarian.co
     MestComponent,
     NftixComponent,
     PandarianComponent,
+    ItemSliderTeamComponent,
   ],
   imports: [
     BrowserModule,

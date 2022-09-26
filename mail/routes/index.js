@@ -18,10 +18,17 @@ router.post('/send-mail', async (req, res) =>{
   let { name, email, phone, company, rank, helpYou, product,metas, time } = req.body
   console.log(req.body);
   contentHTML= `
-    <h1>VI ain </h1>
+    <h1>Nuevo Registro en Vi-ain</h1>
     <ul>
       <li>Nombre: ${name}</li>
       <li>email: ${email}</li>
+      <li>Telefono: ${phone}</li>
+      <li>Compañia: ${company}</li>
+      <li>Cargo de la empresa: ${rank}</li>
+      <li>Como podemos ayudarte: ${helpYou}</li>
+      <li>Producto: ${product}</li>
+      <li>Metas: ${metas}</li>
+      <li>Linea de tiempo: ${time}</li>
 
     </ul>
   `;
@@ -37,10 +44,9 @@ router.post('/send-mail', async (req, res) =>{
   });
 
   const info = await transporter.sendMail({
-    from: '"Fred Foo 👻" <jorge.jlpm987@gmail.com>', // sender address
+    from: 'Vi-ain" <jorge.jlpm987@gmail.com>', // sender address
     to: "jorge.jlpm987@gmail.com", // list of receivers
-    subject: "Hello ✔", // Subject line
-    text: "Hello world?", // plain text body
+    subject: "Nuevo registro en vi-ain", // Subject line
     html: contentHTML, // html body
   });
 

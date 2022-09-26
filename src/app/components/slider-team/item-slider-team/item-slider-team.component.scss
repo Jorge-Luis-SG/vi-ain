@@ -1,0 +1,147 @@
+@import '../../../../styles.scss';
+
+.home-section-6{
+    position: relative;
+    min-height: 910px;
+    &-container{
+      margin-right: 0;
+    }
+    &-gradient{
+      top: 2.2rem;
+    }
+    &-box1{
+      margin-top: 10rem;
+      z-index: 1;
+      &-h4{
+        margin: 0;
+        @extend %titleh4;
+      }
+      &-h2{
+        margin: 1.5rem 0 1rem;
+        text-transform: capitalize;
+        @extend %titleh2;
+      }
+      h6{
+        font-family: 'Gotham';
+        font-size: 2.5rem;
+        font-weight: 300;
+      }
+      p{
+        margin-top: 2rem;
+        max-width: 350px;
+      }
+      a{
+        margin-top: 2rem;
+        max-width: 150px;
+        color: #fff;
+        @extend %btn2;
+      }
+
+    }
+    &-box2{
+      background-image: url(../../../../assets/img/team/aros-team.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: -80px;
+      margin-top: 2rem;
+      & > div{
+        margin-right: 4rem;
+      }
+      &-img{
+        width: 800px;
+        height: 300px;
+        img{
+          position: absolute;
+          max-width: 620px;
+          right: 0;
+        }
+      }
+    }
+    @media screen and (max-width:1400px){
+      &-box2{
+        & > div{
+          margin-right: 0rem;
+        }
+      }
+    }
+    @media screen and (max-width:992px){
+      min-height: 1100px;
+      &-container{
+        margin-left: 0;
+      }
+      &-box1{
+        &-h4{
+          text-align: center;
+        }
+        &-h2{
+          text-align: center;
+        }
+        h6{
+          text-align: center;
+        }
+        p{
+          margin:2rem auto;
+          text-align: center;
+
+        }
+        a{
+          margin:0 auto 5rem;
+          display: flex;
+          justify-content: center;
+          max-width: 150px;
+        }
+
+      }
+      &-box2{
+        background-position: center;
+        background-position-y: top;
+        background-size: contain;
+        margin-top: 0rem;
+        & > div{
+          margin-right: 0rem;
+        }
+        &-img{
+          height: 715px;
+          img{
+            max-width: 520px;
+            margin: 0 auto;
+            right: 0;
+            left: 0;
+          }
+        }
+  }
+
+    }
+    @media screen and (max-width:650px){
+      &-box1 {
+        margin-top: 5.5rem;
+        &-h4{
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        &-h2{
+          font-size: 2.35rem;
+          margin: .5rem 0;
+        }
+        h6{
+          font-size: 1.65rem;
+          margin: 0;
+        }
+        p{
+          margin:1.5rem auto;
+        }
+        a{
+          margin: 0 auto 2rem;
+        }
+      }
+      &-box2{
+      &-img{
+        img{
+          max-width: 320px;
+        }
+      }
+    }
+  }
+
+
+  }
