@@ -1,3 +1,4 @@
+
 <div class="blog">
   <header>
     <app-header></app-header>
@@ -6,6 +7,13 @@
     <app-top-menu></app-top-menu>
     <div class="blog-section1">
       <h2><li>{{'blog.principal.title' | translate}}</li></h2>
+      <div class="container">
+        <div *ngFor="let blog of blogs$ | async">
+          <img [src]="blog.poster" />
+          <h3>{{ blog.title }}</h3>
+          <p>Released on {{ blog._createdAt }}</p>
+        </div>
+      </div>
       <div class="blog-section1-container row position-relative">
         <div
           class="col-12 col-lg-6 blog-section1-box1 d-flex justify-content-center"
